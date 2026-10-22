@@ -1,0 +1,72 @@
+project:
+  name: dynamic_multiobjective_vrp
+  version: "1.0"
+
+paths:
+  instance_dir: data/instances
+  scenario_dir: data/scenarios
+
+# 功能层小规模实例；基准层可将 Solomon 文本文件放入 data/instances 后用 CLI 指定。
+instance_specs:
+  - instance_id: toy_5
+    num_customers: 5
+    num_vehicles: 2
+    capacity: 70
+    seed: 2026
+  - instance_id: toy_10
+    num_customers: 10
+    num_vehicles: 3
+    capacity: 80
+    seed: 2027
+  - instance_id: toy_20
+    num_customers: 20
+    num_vehicles: 5
+    capacity: 80
+    seed: 2028
+
+scenarios:
+  # null = 按实例贪心方案自动估计运营周期，保证事件发生在运营期内。
+  horizon: null
+  base_seed: 2026
+  specs:
+    - {id: S0}
+    - {id: S1_10, new_order_ratio: 0.10}
+    - {id: S1_30, new_order_ratio: 0.30}
+    - {id: S1_50, new_order_ratio: 0.50}
+    - {id: S2, breakdown_count: 1}
+    - {id: S3_125, congestion_edge_ratio: 0.20, congestion_multiplier: 1.25}
+    - {id: S3_150, congestion_edge_ratio: 0.20, congestion_multiplier: 1.50}
+    - {id: S3_200, congestion_edge_ratio: 0.20, congestion_multiplier: 2.00}
+    - id: S4
+      new_order_ratio: 0.30
+      breakdown_count: 1
+      congestion_edge_ratio: 0.20
+      congestion_multiplier: 1.50
+      simultaneous: true
+
+planner:
+  algorithms: [nsga2, mopso, moaco, greedy]
+  population_size: 50
+  max_evaluations: 5000
+  archive_size: 100
+  crossover_rate: 0.9
+  mutation_rate: 0.15
+  response_strategy: warm_start
+  pheromone_evaporation: 0.2
+  c1: 0.6
+  c2: 0.6
+  inertia_strength: 2
+  alpha: 1.0
+  beta: 1.0
+
+simulation:
+  speed: 1.0
+  max_route_duration: null
+  hard_time_windows: false
+  selection_rule: ideal_point
+
+experiment:
+  instances: [toy_5, toy_10, toy_20]
+  scenarios: [S0, S1_10, S1_30, S1_50, S2, S3_125, S3_150, S3_200, S4]
+  seeds: [11, 12, 13, 14, 15]
+  output_dir: results/default

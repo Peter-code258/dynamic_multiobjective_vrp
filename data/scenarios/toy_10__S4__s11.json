@@ -1,0 +1,118 @@
+{
+  "scenario_id": "S4",
+  "seed": 13244,
+  "intensity": {
+    "new_order_ratio": 0.3,
+    "breakdown_count": 1,
+    "congestion_edge_ratio": 0.2,
+    "congestion_multiplier": 1.5
+  },
+  "metadata": {
+    "instance_id": "toy_10",
+    "horizon": 290.61757548162865,
+    "generator_version": "1.1",
+    "note": "合成动态事件，非官方动态基准"
+  },
+  "events": [
+    {
+      "event_id": "e001",
+      "type": "NEW_ORDER",
+      "time": 24.73,
+      "customer": {
+        "customer_id": 1001,
+        "x": 36.28,
+        "y": 80.33,
+        "demand": 20.0,
+        "service_time": 6.0,
+        "release_time": 24.73
+      }
+    },
+    {
+      "event_id": "e002",
+      "type": "CONGESTION_START",
+      "time": 43.59,
+      "period_id": "S4_cong_1",
+      "edges": [
+        [
+          7,
+          8
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "travel_time_multiplier": 1.5,
+      "duration": 72.65439387040716
+    },
+    {
+      "event_id": "e003",
+      "type": "NEW_ORDER",
+      "time": 97.24,
+      "customer": {
+        "customer_id": 1002,
+        "x": 55.13,
+        "y": 15.19,
+        "demand": 8.0,
+        "service_time": 2.0,
+        "release_time": 97.24
+      }
+    },
+    {
+      "event_id": "e004",
+      "type": "VEHICLE_BREAKDOWN",
+      "time": 119.97,
+      "vehicle_id": 1,
+      "repairable": false
+    },
+    {
+      "event_id": "e005",
+      "type": "NEW_ORDER",
+      "time": 163.32,
+      "customer": {
+        "customer_id": 1003,
+        "x": 11.37,
+        "y": 40.62,
+        "demand": 17.0,
+        "service_time": 6.0,
+        "release_time": 163.32
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "scenario_id": "S0",
+  "seed": 14134,
+  "intensity": {
+    "new_order_ratio": 0.0,
+    "breakdown_count": 0,
+    "congestion_edge_ratio": 0.0,
+    "congestion_multiplier": 1.0
+  },
+  "metadata": {
+    "instance_id": "toy_5",
+    "horizon": 304.40519231754627,
+    "generator_version": "1.1",
+    "note": "合成动态事件，非官方动态基准"
+  },
+  "events": []
+}

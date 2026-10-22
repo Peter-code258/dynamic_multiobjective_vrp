@@ -1,0 +1,31 @@
+{
+  "scenario_id": "S1_10",
+  "seed": 13142,
+  "intensity": {
+    "new_order_ratio": 0.1,
+    "breakdown_count": 0,
+    "congestion_edge_ratio": 0.0,
+    "congestion_multiplier": 1.0
+  },
+  "metadata": {
+    "instance_id": "toy_10",
+    "horizon": 290.61757548162865,
+    "generator_version": "1.1",
+    "note": "合成动态事件，非官方动态基准"
+  },
+  "events": [
+    {
+      "event_id": "e001",
+      "type": "NEW_ORDER",
+      "time": 30.08,
+      "customer": {
+        "customer_id": 1001,
+        "x": 53.58,
+        "y": 41.72,
+        "demand": 15.0,
+        "service_time": 4.0,
+        "release_time": 30.08
+      }
+    }
+  ]
+}

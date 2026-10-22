@@ -1,0 +1,321 @@
+﻿run_id,instance_id,scenario_id,seed,algorithm,variant_id,vehicle_id,status,used,capacity,served_customers,served_demand,served_distance,utilization,last_planned_route,last_planned_load
+toy_10__S0__greedy__s11__p20_b800_warm_start__e800,toy_10,S0,11,greedy,p20_b800_warm_start,0,FINISHED,True,80.0,3 7 9 5 2,80.0,173.70449285005307,1.0,3 7 9 5 2,80.0
+toy_10__S0__greedy__s11__p20_b800_warm_start__e800,toy_10,S0,11,greedy,p20_b800_warm_start,1,FINISHED,True,80.0,6 10 1 8 4,49.0,217.62484777331662,0.6125,6 10 1 8 4,49.0
+toy_10__S0__greedy__s11__p20_b800_warm_start__e800,toy_10,S0,11,greedy,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S0__greedy__s12__p20_b800_warm_start__e800,toy_10,S0,12,greedy,p20_b800_warm_start,0,FINISHED,True,80.0,3 7 9 5 2,80.0,173.70449285005307,1.0,3 7 9 5 2,80.0
+toy_10__S0__greedy__s12__p20_b800_warm_start__e800,toy_10,S0,12,greedy,p20_b800_warm_start,1,FINISHED,True,80.0,6 10 1 8 4,49.0,217.62484777331662,0.6125,6 10 1 8 4,49.0
+toy_10__S0__greedy__s12__p20_b800_warm_start__e800,toy_10,S0,12,greedy,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S1_10__greedy__s11__p20_b800_warm_start__e800,toy_10,S1_10,11,greedy,p20_b800_warm_start,0,FINISHED,True,80.0,3 7 10 1 8 1001,69.0,230.3763549295417,0.8625,10 1 8 1001,38.0
+toy_10__S1_10__greedy__s11__p20_b800_warm_start__e800,toy_10,S1_10,11,greedy,p20_b800_warm_start,1,FINISHED,True,80.0,6 9 5 4 2,75.0,225.3333755955339,0.9375,9 5 4 2,62.0
+toy_10__S1_10__greedy__s11__p20_b800_warm_start__e800,toy_10,S1_10,11,greedy,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S1_10__greedy__s12__p20_b800_warm_start__e800,toy_10,S1_10,12,greedy,p20_b800_warm_start,0,FINISHED,True,80.0,3 7 10 1 8 1001,66.0,245.74300011882053,0.825,10 1 8 1001,35.0
+toy_10__S1_10__greedy__s12__p20_b800_warm_start__e800,toy_10,S1_10,12,greedy,p20_b800_warm_start,1,FINISHED,True,80.0,6 9 5 4 2,75.0,225.3333755955339,0.9375,9 5 4 2,62.0
+toy_10__S1_10__greedy__s12__p20_b800_warm_start__e800,toy_10,S1_10,12,greedy,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S1_30__greedy__s11__p20_b800_warm_start__e800,toy_10,S1_30,11,greedy,p20_b800_warm_start,0,FINISHED,True,80.0,3 7 10 1 8 1002 1001,69.0,254.42203798723548,0.8625,8 1002 1001,21.0
+toy_10__S1_30__greedy__s11__p20_b800_warm_start__e800,toy_10,S1_30,11,greedy,p20_b800_warm_start,1,FINISHED,True,80.0,6 9 5 4 2,75.0,225.3333755955339,0.9375,5 4 2,46.0
+toy_10__S1_30__greedy__s11__p20_b800_warm_start__e800,toy_10,S1_30,11,greedy,p20_b800_warm_start,2,FINISHED,True,80.0,1003,15.0,29.03129346067791,0.1875,1003,15.0
+toy_10__S1_30__greedy__s12__p20_b800_warm_start__e800,toy_10,S1_30,12,greedy,p20_b800_warm_start,0,FINISHED,True,80.0,3 7 10 1001 1002 1 8,79.0,230.2490324424628,0.9875,8,6.0
+toy_10__S1_30__greedy__s12__p20_b800_warm_start__e800,toy_10,S1_30,12,greedy,p20_b800_warm_start,1,FINISHED,True,80.0,6 9 5 4 2,75.0,225.3333755955339,0.9375,2,15.0
+toy_10__S1_30__greedy__s12__p20_b800_warm_start__e800,toy_10,S1_30,12,greedy,p20_b800_warm_start,2,FINISHED,True,80.0,1003,18.0,97.33636524958183,0.225,1003,18.0
+toy_10__S1_50__greedy__s11__p20_b800_warm_start__e800,toy_10,S1_50,11,greedy,p20_b800_warm_start,0,FINISHED,True,80.0,3 1 8 4 1003 1001,59.0,194.19383608954766,0.7375,,0.0
+toy_10__S1_50__greedy__s11__p20_b800_warm_start__e800,toy_10,S1_50,11,greedy,p20_b800_warm_start,1,FINISHED,True,80.0,6 7 9 5 2,80.0,169.18363283303748,1.0,,0.0
+toy_10__S1_50__greedy__s11__p20_b800_warm_start__e800,toy_10,S1_50,11,greedy,p20_b800_warm_start,2,FINISHED,True,80.0,1004 1005 10 1002,30.0,240.33082408955758,0.375,1005 10 1002,25.0
+toy_10__S1_50__greedy__s12__p20_b800_warm_start__e800,toy_10,S1_50,12,greedy,p20_b800_warm_start,0,FINISHED,True,80.0,3 1 8 4 1002,49.0,206.7650397832827,0.6125,,0.0
+toy_10__S1_50__greedy__s12__p20_b800_warm_start__e800,toy_10,S1_50,12,greedy,p20_b800_warm_start,1,FINISHED,True,80.0,6 7 9 5 2,80.0,169.18363283303748,1.0,,0.0
+toy_10__S1_50__greedy__s12__p20_b800_warm_start__e800,toy_10,S1_50,12,greedy,p20_b800_warm_start,2,FINISHED,True,80.0,1004 10 1005 1001 1003,53.0,117.2175073160121,0.6625,10 1005 1001 1003,39.0
+toy_10__S2__greedy__s11__p20_b800_warm_start__e800,toy_10,S2,11,greedy,p20_b800_warm_start,0,FINISHED,True,80.0,3 7 9 5 2,80.0,173.70449285005307,1.0,2,15.0
+toy_10__S2__greedy__s11__p20_b800_warm_start__e800,toy_10,S2,11,greedy,p20_b800_warm_start,1,BROKEN,True,80.0,6 10 1,30.0,124.85917920054814,0.375,,0.0
+toy_10__S2__greedy__s11__p20_b800_warm_start__e800,toy_10,S2,11,greedy,p20_b800_warm_start,2,FINISHED,True,80.0,8 4,19.0,121.6999523729472,0.2375,8 4,19.0
+toy_10__S2__greedy__s12__p20_b800_warm_start__e800,toy_10,S2,12,greedy,p20_b800_warm_start,0,FINISHED,True,80.0,3 7 9 5 2,80.0,173.70449285005307,1.0,2,15.0
+toy_10__S2__greedy__s12__p20_b800_warm_start__e800,toy_10,S2,12,greedy,p20_b800_warm_start,1,FINISHED,True,80.0,6 10 1 8 4,49.0,217.62484777331662,0.6125,8 4,19.0
+toy_10__S2__greedy__s12__p20_b800_warm_start__e800,toy_10,S2,12,greedy,p20_b800_warm_start,2,BROKEN,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S3_150__greedy__s11__p20_b800_warm_start__e800,toy_10,S3_150,11,greedy,p20_b800_warm_start,0,FINISHED,True,80.0,3 7 1 8 4,59.0,201.40406553823857,0.7375,4,13.0
+toy_10__S3_150__greedy__s11__p20_b800_warm_start__e800,toy_10,S3_150,11,greedy,p20_b800_warm_start,1,FINISHED,True,80.0,6 10 9 5 2,70.0,190.03489275782724,0.875,2,15.0
+toy_10__S3_150__greedy__s11__p20_b800_warm_start__e800,toy_10,S3_150,11,greedy,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S3_150__greedy__s12__p20_b800_warm_start__e800,toy_10,S3_150,12,greedy,p20_b800_warm_start,0,FINISHED,True,80.0,3 7 1 8 4,59.0,201.40406553823857,0.7375,4,13.0
+toy_10__S3_150__greedy__s12__p20_b800_warm_start__e800,toy_10,S3_150,12,greedy,p20_b800_warm_start,1,FINISHED,True,80.0,6 10 9 5 2,70.0,190.03489275782724,0.875,2,15.0
+toy_10__S3_150__greedy__s12__p20_b800_warm_start__e800,toy_10,S3_150,12,greedy,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S3_200__greedy__s11__p20_b800_warm_start__e800,toy_10,S3_200,11,greedy,p20_b800_warm_start,0,FINISHED,True,80.0,3 7 1 8 4,59.0,201.40406553823857,0.7375,8 4,19.0
+toy_10__S3_200__greedy__s11__p20_b800_warm_start__e800,toy_10,S3_200,11,greedy,p20_b800_warm_start,1,FINISHED,True,80.0,6 10 9 5 2,70.0,190.03489275782724,0.875,2,15.0
+toy_10__S3_200__greedy__s11__p20_b800_warm_start__e800,toy_10,S3_200,11,greedy,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S3_200__greedy__s12__p20_b800_warm_start__e800,toy_10,S3_200,12,greedy,p20_b800_warm_start,0,FINISHED,True,80.0,3 7 1 8 4,59.0,201.40406553823857,0.7375,4,13.0
+toy_10__S3_200__greedy__s12__p20_b800_warm_start__e800,toy_10,S3_200,12,greedy,p20_b800_warm_start,1,FINISHED,True,80.0,6 10 9 5 2,70.0,190.03489275782724,0.875,2,15.0
+toy_10__S3_200__greedy__s12__p20_b800_warm_start__e800,toy_10,S3_200,12,greedy,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S4__greedy__s11__p20_b800_warm_start__e800,toy_10,S4,11,greedy,p20_b800_warm_start,0,FINISHED,True,80.0,3 1 8 5 9 2,77.0,221.55415430113183,0.9625,9 2,31.0
+toy_10__S4__greedy__s11__p20_b800_warm_start__e800,toy_10,S4,11,greedy,p20_b800_warm_start,1,BROKEN,True,80.0,6 7 10 1001,59.0,91.39063768407006,0.7375,,0.0
+toy_10__S4__greedy__s11__p20_b800_warm_start__e800,toy_10,S4,11,greedy,p20_b800_warm_start,2,FINISHED,True,80.0,1002 4 1003,38.0,152.8768395793549,0.475,1003,17.0
+toy_10__S4__greedy__s12__p20_b800_warm_start__e800,toy_10,S4,12,greedy,p20_b800_warm_start,0,BROKEN,True,80.0,3 1 8 5,46.0,157.85052871098924,0.575,,0.0
+toy_10__S4__greedy__s12__p20_b800_warm_start__e800,toy_10,S4,12,greedy,p20_b800_warm_start,1,FINISHED,True,80.0,6 7 10 1001 9 2,75.0,240.453128792953,0.9375,9 2,31.0
+toy_10__S4__greedy__s12__p20_b800_warm_start__e800,toy_10,S4,12,greedy,p20_b800_warm_start,2,FINISHED,True,80.0,1002 4 1003,38.0,134.09202105257765,0.475,1002 4 1003,38.0
+toy_5__S0__greedy__s11__p20_b800_warm_start__e800,toy_5,S0,11,greedy,p20_b800_warm_start,0,FINISHED,True,70.0,3 2 1 4 5,68.0,221.36882183381448,0.9714285714285714,3 2 1 4 5,68.0
+toy_5__S0__greedy__s11__p20_b800_warm_start__e800,toy_5,S0,11,greedy,p20_b800_warm_start,1,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S0__greedy__s12__p20_b800_warm_start__e800,toy_5,S0,12,greedy,p20_b800_warm_start,0,FINISHED,True,70.0,3 2 1 4 5,68.0,221.36882183381448,0.9714285714285714,3 2 1 4 5,68.0
+toy_5__S0__greedy__s12__p20_b800_warm_start__e800,toy_5,S0,12,greedy,p20_b800_warm_start,1,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S1_10__greedy__s11__p20_b800_warm_start__e800,toy_5,S1_10,11,greedy,p20_b800_warm_start,0,FINISHED,True,70.0,3 2 1 4 5,68.0,221.36882183381448,0.9714285714285714,2 1 4 5,50.0
+toy_5__S1_10__greedy__s11__p20_b800_warm_start__e800,toy_5,S1_10,11,greedy,p20_b800_warm_start,1,FINISHED,True,70.0,1001,15.0,20.78047160196322,0.21428571428571427,1001,15.0
+toy_5__S1_10__greedy__s12__p20_b800_warm_start__e800,toy_5,S1_10,12,greedy,p20_b800_warm_start,0,FINISHED,True,70.0,3 2 1 4 5,68.0,221.36882183381448,0.9714285714285714,2 1 4 5,50.0
+toy_5__S1_10__greedy__s12__p20_b800_warm_start__e800,toy_5,S1_10,12,greedy,p20_b800_warm_start,1,FINISHED,True,70.0,1001,12.0,35.62288028781503,0.17142857142857143,1001,12.0
+toy_5__S1_30__greedy__s11__p20_b800_warm_start__e800,toy_5,S1_30,11,greedy,p20_b800_warm_start,0,FINISHED,True,70.0,3 2 1 4 5,68.0,221.36882183381448,0.9714285714285714,5,6.0
+toy_5__S1_30__greedy__s11__p20_b800_warm_start__e800,toy_5,S1_30,11,greedy,p20_b800_warm_start,1,FINISHED,True,70.0,1001 1002,15.0,93.50268237704968,0.21428571428571427,1002,6.0
+toy_5__S1_30__greedy__s12__p20_b800_warm_start__e800,toy_5,S1_30,12,greedy,p20_b800_warm_start,0,FINISHED,True,70.0,3 2 1 4 5,68.0,221.36882183381448,0.9714285714285714,5,6.0
+toy_5__S1_30__greedy__s12__p20_b800_warm_start__e800,toy_5,S1_30,12,greedy,p20_b800_warm_start,1,FINISHED,True,70.0,1001 1002,25.0,53.210704058170755,0.35714285714285715,1002,18.0
+toy_5__S1_50__greedy__s11__p20_b800_warm_start__e800,toy_5,S1_50,11,greedy,p20_b800_warm_start,0,FINISHED,True,70.0,3 2 1 4 5,68.0,221.36882183381448,0.9714285714285714,5,6.0
+toy_5__S1_50__greedy__s11__p20_b800_warm_start__e800,toy_5,S1_50,11,greedy,p20_b800_warm_start,1,FINISHED,True,70.0,1001 1002,23.0,76.9430240374982,0.32857142857142857,1002,12.0
+toy_5__S1_50__greedy__s12__p20_b800_warm_start__e800,toy_5,S1_50,12,greedy,p20_b800_warm_start,0,FINISHED,True,70.0,3 2 1 4,62.0,205.3399089066745,0.8857142857142857,,0.0
+toy_5__S1_50__greedy__s12__p20_b800_warm_start__e800,toy_5,S1_50,12,greedy,p20_b800_warm_start,1,FINISHED,True,70.0,1001 5 1002,21.0,122.2418170618547,0.3,5 1002,14.0
+toy_5__S2__greedy__s11__p20_b800_warm_start__e800,toy_5,S2,11,greedy,p20_b800_warm_start,0,BROKEN,True,70.0,3 2 1,46.0,128.21715021253084,0.6571428571428571,,0.0
+toy_5__S2__greedy__s11__p20_b800_warm_start__e800,toy_5,S2,11,greedy,p20_b800_warm_start,1,FINISHED,True,70.0,5 4,22.0,107.59186176563033,0.3142857142857143,5 4,22.0
+toy_5__S2__greedy__s12__p20_b800_warm_start__e800,toy_5,S2,12,greedy,p20_b800_warm_start,0,FINISHED,True,70.0,3 2 1 4 5,68.0,221.36882183381448,0.9714285714285714,1 4 5,32.0
+toy_5__S2__greedy__s12__p20_b800_warm_start__e800,toy_5,S2,12,greedy,p20_b800_warm_start,1,BROKEN,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S3_150__greedy__s11__p20_b800_warm_start__e800,toy_5,S3_150,11,greedy,p20_b800_warm_start,0,FINISHED,True,70.0,3 2 1 4 5,68.0,221.36882183381448,0.9714285714285714,4 5,22.0
+toy_5__S3_150__greedy__s11__p20_b800_warm_start__e800,toy_5,S3_150,11,greedy,p20_b800_warm_start,1,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S3_150__greedy__s12__p20_b800_warm_start__e800,toy_5,S3_150,12,greedy,p20_b800_warm_start,0,FINISHED,True,70.0,3 2 1 4 5,68.0,221.36882183381448,0.9714285714285714,4 5,22.0
+toy_5__S3_150__greedy__s12__p20_b800_warm_start__e800,toy_5,S3_150,12,greedy,p20_b800_warm_start,1,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S3_200__greedy__s11__p20_b800_warm_start__e800,toy_5,S3_200,11,greedy,p20_b800_warm_start,0,FINISHED,True,70.0,3 2 1 4 5,68.0,221.36882183381448,0.9714285714285714,4 5,22.0
+toy_5__S3_200__greedy__s11__p20_b800_warm_start__e800,toy_5,S3_200,11,greedy,p20_b800_warm_start,1,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S3_200__greedy__s12__p20_b800_warm_start__e800,toy_5,S3_200,12,greedy,p20_b800_warm_start,0,FINISHED,True,70.0,3 2 1 4 5,68.0,221.36882183381448,0.9714285714285714,4 5,22.0
+toy_5__S3_200__greedy__s12__p20_b800_warm_start__e800,toy_5,S3_200,12,greedy,p20_b800_warm_start,1,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S4__greedy__s11__p20_b800_warm_start__e800,toy_5,S4,11,greedy,p20_b800_warm_start,0,BROKEN,True,70.0,3 2 1,46.0,128.21715021253084,0.6571428571428571,,0.0
+toy_5__S4__greedy__s11__p20_b800_warm_start__e800,toy_5,S4,11,greedy,p20_b800_warm_start,1,FINISHED,True,70.0,1001 4 5 1002,50.0,154.8220802424594,0.7142857142857143,1002,8.0
+toy_5__S4__greedy__s12__p20_b800_warm_start__e800,toy_5,S4,12,greedy,p20_b800_warm_start,0,FINISHED,True,70.0,3 2 1 4 5,68.0,221.36882183381448,0.9714285714285714,5,6.0
+toy_5__S4__greedy__s12__p20_b800_warm_start__e800,toy_5,S4,12,greedy,p20_b800_warm_start,1,BROKEN,True,70.0,1001,5.0,26.19058036775818,0.07142857142857142,,0.0
+toy_10__S0__moaco__s11__p20_b800_warm_start__e800,toy_10,S0,11,moaco,p20_b800_warm_start,0,FINISHED,True,80.0,7 6 10 9 5,73.0,194.09993016823412,0.9125,7 6 10 9 5,73.0
+toy_10__S0__moaco__s11__p20_b800_warm_start__e800,toy_10,S0,11,moaco,p20_b800_warm_start,1,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S0__moaco__s11__p20_b800_warm_start__e800,toy_10,S0,11,moaco,p20_b800_warm_start,2,FINISHED,True,80.0,2 3 1 8 4,56.0,154.7511648892591,0.7,2 3 1 8 4,56.0
+toy_10__S0__moaco__s12__p20_b800_warm_start__e800,toy_10,S0,12,moaco,p20_b800_warm_start,0,FINISHED,True,80.0,7 10 6 9,55.0,122.85706343870024,0.6875,7 10 6 9,55.0
+toy_10__S0__moaco__s12__p20_b800_warm_start__e800,toy_10,S0,12,moaco,p20_b800_warm_start,1,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S0__moaco__s12__p20_b800_warm_start__e800,toy_10,S0,12,moaco,p20_b800_warm_start,2,FINISHED,True,80.0,2 3 1 4 8 5,74.0,238.90037777407508,0.925,2 3 1 4 8 5,74.0
+toy_10__S1_10__moaco__s11__p20_b800_warm_start__e800,toy_10,S1_10,11,moaco,p20_b800_warm_start,0,FINISHED,True,80.0,7 6 10 9 5,73.0,194.09993016823412,0.9125,10 9 5,42.0
+toy_10__S1_10__moaco__s11__p20_b800_warm_start__e800,toy_10,S1_10,11,moaco,p20_b800_warm_start,1,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S1_10__moaco__s11__p20_b800_warm_start__e800,toy_10,S1_10,11,moaco,p20_b800_warm_start,2,FINISHED,True,80.0,2 3 1 8 4 1001,71.0,160.31392470959074,0.8875,1 8 4 1001,43.0
+toy_10__S1_10__moaco__s12__p20_b800_warm_start__e800,toy_10,S1_10,12,moaco,p20_b800_warm_start,0,FINISHED,True,80.0,7 10 6 9 1001,67.0,126.9723178825875,0.8375,6 9 1001,41.0
+toy_10__S1_10__moaco__s12__p20_b800_warm_start__e800,toy_10,S1_10,12,moaco,p20_b800_warm_start,1,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S1_10__moaco__s12__p20_b800_warm_start__e800,toy_10,S1_10,12,moaco,p20_b800_warm_start,2,FINISHED,True,80.0,2 3 1 8 4 5,74.0,225.27605458495105,0.925,1 8 4 5,46.0
+toy_10__S1_30__moaco__s11__p20_b800_warm_start__e800,toy_10,S1_30,11,moaco,p20_b800_warm_start,0,FINISHED,True,80.0,7 6 10 9 5,73.0,194.09993016823412,0.9125,,0.0
+toy_10__S1_30__moaco__s11__p20_b800_warm_start__e800,toy_10,S1_30,11,moaco,p20_b800_warm_start,1,FINISHED,True,80.0,1003,15.0,29.03129346067791,0.1875,1003,15.0
+toy_10__S1_30__moaco__s11__p20_b800_warm_start__e800,toy_10,S1_30,11,moaco,p20_b800_warm_start,2,FINISHED,True,80.0,2 3 1 8 4 1002 1001,71.0,175.6187827143102,0.8875,,0.0
+toy_10__S1_30__moaco__s12__p20_b800_warm_start__e800,toy_10,S1_30,12,moaco,p20_b800_warm_start,0,FINISHED,True,80.0,7 10 6 9 5 8,79.0,256.3609442403014,0.9875,,0.0
+toy_10__S1_30__moaco__s12__p20_b800_warm_start__e800,toy_10,S1_30,12,moaco,p20_b800_warm_start,1,FINISHED,True,80.0,1003,18.0,97.33636524958183,0.225,1003,18.0
+toy_10__S1_30__moaco__s12__p20_b800_warm_start__e800,toy_10,S1_30,12,moaco,p20_b800_warm_start,2,FINISHED,True,80.0,2 3 1001 1 4 1002,75.0,195.56353568045157,0.9375,,0.0
+toy_10__S1_50__moaco__s11__p20_b800_warm_start__e800,toy_10,S1_50,11,moaco,p20_b800_warm_start,0,FINISHED,True,80.0,7 10 6 9 5,73.0,179.83986744585877,0.9125,,0.0
+toy_10__S1_50__moaco__s11__p20_b800_warm_start__e800,toy_10,S1_50,11,moaco,p20_b800_warm_start,1,FINISHED,True,80.0,1002 1001 1005 1004,33.0,180.55169417913405,0.4125,1001 1005 1004,21.0
+toy_10__S1_50__moaco__s11__p20_b800_warm_start__e800,toy_10,S1_50,11,moaco,p20_b800_warm_start,2,FINISHED,True,80.0,2 3 1 8 4 1003,63.0,154.92629275192954,0.7875,,0.0
+toy_10__S1_50__moaco__s12__p20_b800_warm_start__e800,toy_10,S1_50,12,moaco,p20_b800_warm_start,0,FINISHED,True,80.0,7 1001 10 6 1004 1005,65.0,150.6711256220386,0.8125,1005,5.0
+toy_10__S1_50__moaco__s12__p20_b800_warm_start__e800,toy_10,S1_50,12,moaco,p20_b800_warm_start,1,FINISHED,True,80.0,9 1002 5 1003,61.0,143.77739073588705,0.7625,5 1003,37.0
+toy_10__S1_50__moaco__s12__p20_b800_warm_start__e800,toy_10,S1_50,12,moaco,p20_b800_warm_start,2,FINISHED,True,80.0,2 3 1 8 4,56.0,154.7511648892591,0.7,,0.0
+toy_10__S2__moaco__s11__p20_b800_warm_start__e800,toy_10,S2,11,moaco,p20_b800_warm_start,0,FINISHED,True,80.0,7 6 10 9 5,73.0,194.09993016823412,0.9125,5,18.0
+toy_10__S2__moaco__s11__p20_b800_warm_start__e800,toy_10,S2,11,moaco,p20_b800_warm_start,1,BROKEN,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S2__moaco__s11__p20_b800_warm_start__e800,toy_10,S2,11,moaco,p20_b800_warm_start,2,FINISHED,True,80.0,2 3 1 8 4,56.0,154.7511648892591,0.7,4,13.0
+toy_10__S2__moaco__s12__p20_b800_warm_start__e800,toy_10,S2,12,moaco,p20_b800_warm_start,0,FINISHED,True,80.0,7 10 6 9 5 8,79.0,256.3609442403014,0.9875,5 8,24.0
+toy_10__S2__moaco__s12__p20_b800_warm_start__e800,toy_10,S2,12,moaco,p20_b800_warm_start,1,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S2__moaco__s12__p20_b800_warm_start__e800,toy_10,S2,12,moaco,p20_b800_warm_start,2,BROKEN,True,80.0,2 3 1 4,50.0,96.7066973325845,0.625,,0.0
+toy_10__S3_150__moaco__s11__p20_b800_warm_start__e800,toy_10,S3_150,11,moaco,p20_b800_warm_start,0,FINISHED,True,80.0,7 6 10 9 5,73.0,194.09993016823412,0.9125,,0.0
+toy_10__S3_150__moaco__s11__p20_b800_warm_start__e800,toy_10,S3_150,11,moaco,p20_b800_warm_start,1,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S3_150__moaco__s11__p20_b800_warm_start__e800,toy_10,S3_150,11,moaco,p20_b800_warm_start,2,FINISHED,True,80.0,2 3 1 8 4,56.0,154.7511648892591,0.7,,0.0
+toy_10__S3_150__moaco__s12__p20_b800_warm_start__e800,toy_10,S3_150,12,moaco,p20_b800_warm_start,0,FINISHED,True,80.0,7 10 6 9 5,73.0,179.83986744585877,0.9125,,0.0
+toy_10__S3_150__moaco__s12__p20_b800_warm_start__e800,toy_10,S3_150,12,moaco,p20_b800_warm_start,1,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S3_150__moaco__s12__p20_b800_warm_start__e800,toy_10,S3_150,12,moaco,p20_b800_warm_start,2,FINISHED,True,80.0,2 3 1 8 4,56.0,154.7511648892591,0.7,,0.0
+toy_10__S3_200__moaco__s11__p20_b800_warm_start__e800,toy_10,S3_200,11,moaco,p20_b800_warm_start,0,FINISHED,True,80.0,7 6 10 9 5,73.0,194.09993016823412,0.9125,,0.0
+toy_10__S3_200__moaco__s11__p20_b800_warm_start__e800,toy_10,S3_200,11,moaco,p20_b800_warm_start,1,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S3_200__moaco__s11__p20_b800_warm_start__e800,toy_10,S3_200,11,moaco,p20_b800_warm_start,2,FINISHED,True,80.0,2 3 1 8 4,56.0,154.7511648892591,0.7,,0.0
+toy_10__S3_200__moaco__s12__p20_b800_warm_start__e800,toy_10,S3_200,12,moaco,p20_b800_warm_start,0,FINISHED,True,80.0,7 10 6 9 5,73.0,179.83986744585877,0.9125,5,18.0
+toy_10__S3_200__moaco__s12__p20_b800_warm_start__e800,toy_10,S3_200,12,moaco,p20_b800_warm_start,1,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S3_200__moaco__s12__p20_b800_warm_start__e800,toy_10,S3_200,12,moaco,p20_b800_warm_start,2,FINISHED,True,80.0,2 3 1 8 4,56.0,154.7511648892591,0.7,,0.0
+toy_10__S4__moaco__s11__p20_b800_warm_start__e800,toy_10,S4,11,moaco,p20_b800_warm_start,0,FINISHED,True,80.0,7 10 6 9 5 8,79.0,256.3609442403014,0.9875,,0.0
+toy_10__S4__moaco__s11__p20_b800_warm_start__e800,toy_10,S4,11,moaco,p20_b800_warm_start,1,BROKEN,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S4__moaco__s11__p20_b800_warm_start__e800,toy_10,S4,11,moaco,p20_b800_warm_start,2,FINISHED,True,80.0,2 3 1001 1 4 1002,78.0,212.11769895592786,0.975,,0.0
+toy_10__S4__moaco__s12__p20_b800_warm_start__e800,toy_10,S4,12,moaco,p20_b800_warm_start,0,BROKEN,True,80.0,7 10 6 9,55.0,93.33567288879557,0.6875,,0.0
+toy_10__S4__moaco__s12__p20_b800_warm_start__e800,toy_10,S4,12,moaco,p20_b800_warm_start,1,FINISHED,True,80.0,5 1003,38.0,143.1743167381414,0.475,1003,20.0
+toy_10__S4__moaco__s12__p20_b800_warm_start__e800,toy_10,S4,12,moaco,p20_b800_warm_start,2,FINISHED,True,80.0,2 3 1 1001 8 1002 4,66.0,167.50554256380175,0.825,,0.0
+toy_5__S0__moaco__s11__p20_b800_warm_start__e800,toy_5,S0,11,moaco,p20_b800_warm_start,0,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S0__moaco__s11__p20_b800_warm_start__e800,toy_5,S0,11,moaco,p20_b800_warm_start,1,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,2 1 4 5 3,68.0
+toy_5__S0__moaco__s12__p20_b800_warm_start__e800,toy_5,S0,12,moaco,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,2 1 4 5 3,68.0
+toy_5__S0__moaco__s12__p20_b800_warm_start__e800,toy_5,S0,12,moaco,p20_b800_warm_start,1,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S1_10__moaco__s11__p20_b800_warm_start__e800,toy_5,S1_10,11,moaco,p20_b800_warm_start,0,FINISHED,True,70.0,1001 3,33.0,97.68928137317175,0.4714285714285714,1001 3,33.0
+toy_5__S1_10__moaco__s11__p20_b800_warm_start__e800,toy_5,S1_10,11,moaco,p20_b800_warm_start,1,FINISHED,True,70.0,2 1 4 5,50.0,141.5636234198635,0.7142857142857143,4 5,22.0
+toy_5__S1_10__moaco__s12__p20_b800_warm_start__e800,toy_5,S1_10,12,moaco,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4,44.0,125.53471049272352,0.6285714285714286,4,16.0
+toy_5__S1_10__moaco__s12__p20_b800_warm_start__e800,toy_5,S1_10,12,moaco,p20_b800_warm_start,1,FINISHED,True,70.0,1001 3 5,36.0,132.6002573129517,0.5142857142857142,1001 3 5,36.0
+toy_5__S1_30__moaco__s11__p20_b800_warm_start__e800,toy_5,S1_30,11,moaco,p20_b800_warm_start,0,FINISHED,True,70.0,1001 3 5 1002,39.0,224.54729442834503,0.5571428571428572,1002,6.0
+toy_5__S1_30__moaco__s11__p20_b800_warm_start__e800,toy_5,S1_30,11,moaco,p20_b800_warm_start,1,FINISHED,True,70.0,2 1 4,44.0,125.53471049272352,0.6285714285714286,,0.0
+toy_5__S1_30__moaco__s12__p20_b800_warm_start__e800,toy_5,S1_30,12,moaco,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 1001 1002,69.0,127.8719546072703,0.9857142857142858,1002,18.0
+toy_5__S1_30__moaco__s12__p20_b800_warm_start__e800,toy_5,S1_30,12,moaco,p20_b800_warm_start,1,FINISHED,True,70.0,5 3,24.0,129.61845915765213,0.34285714285714286,,0.0
+toy_5__S1_50__moaco__s11__p20_b800_warm_start__e800,toy_5,S1_50,11,moaco,p20_b800_warm_start,0,FINISHED,True,70.0,1001 3 5 1002,47.0,193.24546680251876,0.6714285714285714,1002,12.0
+toy_5__S1_50__moaco__s11__p20_b800_warm_start__e800,toy_5,S1_50,11,moaco,p20_b800_warm_start,1,FINISHED,True,70.0,2 1 4,44.0,125.53471049272352,0.6285714285714286,,0.0
+toy_5__S1_50__moaco__s12__p20_b800_warm_start__e800,toy_5,S1_50,12,moaco,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4,44.0,125.53471049272352,0.6285714285714286,,0.0
+toy_5__S1_50__moaco__s12__p20_b800_warm_start__e800,toy_5,S1_50,12,moaco,p20_b800_warm_start,1,FINISHED,True,70.0,1001 5 3 1002,39.0,138.70151344311466,0.5571428571428572,1002,8.0
+toy_5__S2__moaco__s11__p20_b800_warm_start__e800,toy_5,S2,11,moaco,p20_b800_warm_start,0,BROKEN,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S2__moaco__s11__p20_b800_warm_start__e800,toy_5,S2,11,moaco,p20_b800_warm_start,1,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,3,18.0
+toy_5__S2__moaco__s12__p20_b800_warm_start__e800,toy_5,S2,12,moaco,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,3,18.0
+toy_5__S2__moaco__s12__p20_b800_warm_start__e800,toy_5,S2,12,moaco,p20_b800_warm_start,1,BROKEN,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S3_150__moaco__s11__p20_b800_warm_start__e800,toy_5,S3_150,11,moaco,p20_b800_warm_start,0,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S3_150__moaco__s11__p20_b800_warm_start__e800,toy_5,S3_150,11,moaco,p20_b800_warm_start,1,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,,0.0
+toy_5__S3_150__moaco__s12__p20_b800_warm_start__e800,toy_5,S3_150,12,moaco,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,,0.0
+toy_5__S3_150__moaco__s12__p20_b800_warm_start__e800,toy_5,S3_150,12,moaco,p20_b800_warm_start,1,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S3_200__moaco__s11__p20_b800_warm_start__e800,toy_5,S3_200,11,moaco,p20_b800_warm_start,0,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S3_200__moaco__s11__p20_b800_warm_start__e800,toy_5,S3_200,11,moaco,p20_b800_warm_start,1,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,,0.0
+toy_5__S3_200__moaco__s12__p20_b800_warm_start__e800,toy_5,S3_200,12,moaco,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,3,18.0
+toy_5__S3_200__moaco__s12__p20_b800_warm_start__e800,toy_5,S3_200,12,moaco,p20_b800_warm_start,1,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S4__moaco__s11__p20_b800_warm_start__e800,toy_5,S4,11,moaco,p20_b800_warm_start,0,BROKEN,True,70.0,5 3,24.0,83.00673101976821,0.34285714285714286,,0.0
+toy_5__S4__moaco__s11__p20_b800_warm_start__e800,toy_5,S4,11,moaco,p20_b800_warm_start,1,FINISHED,True,70.0,2 1 4 1001,64.0,131.06384571042761,0.9142857142857143,,0.0
+toy_5__S4__moaco__s12__p20_b800_warm_start__e800,toy_5,S4,12,moaco,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 5 1002,55.0,228.15996338976382,0.7857142857142857,1002,5.0
+toy_5__S4__moaco__s12__p20_b800_warm_start__e800,toy_5,S4,12,moaco,p20_b800_warm_start,1,BROKEN,True,70.0,1001 3,23.0,91.56256901733192,0.32857142857142857,,0.0
+toy_10__S0__mopso__s11__p20_b800_warm_start__e800,toy_10,S0,11,mopso,p20_b800_warm_start,0,FINISHED,True,80.0,2 3 7 6 10 1,76.0,210.4940603853029,0.95,2 3 7 6 10 1,76.0
+toy_10__S0__mopso__s11__p20_b800_warm_start__e800,toy_10,S0,11,mopso,p20_b800_warm_start,1,FINISHED,True,80.0,9 5 4 8,53.0,197.3560107246423,0.6625,9 5 4 8,53.0
+toy_10__S0__mopso__s11__p20_b800_warm_start__e800,toy_10,S0,11,mopso,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S0__mopso__s12__p20_b800_warm_start__e800,toy_10,S0,12,mopso,p20_b800_warm_start,0,FINISHED,True,80.0,2 3 9 5,62.0,165.57754078092339,0.775,2 3 9 5,62.0
+toy_10__S0__mopso__s12__p20_b800_warm_start__e800,toy_10,S0,12,mopso,p20_b800_warm_start,1,FINISHED,True,80.0,6 7 10 1 8 4,67.0,231.21325545325382,0.8375,6 7 10 1 8 4,67.0
+toy_10__S0__mopso__s12__p20_b800_warm_start__e800,toy_10,S0,12,mopso,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S1_10__mopso__s11__p20_b800_warm_start__e800,toy_10,S1_10,11,mopso,p20_b800_warm_start,0,FINISHED,True,80.0,2 3 1 8 4 5,74.0,225.27605458495105,0.925,1 8 4 5,46.0
+toy_10__S1_10__mopso__s11__p20_b800_warm_start__e800,toy_10,S1_10,11,mopso,p20_b800_warm_start,1,FINISHED,True,80.0,9 1001 6 10 7,70.0,147.0972794100258,0.875,1001 6 10 7,54.0
+toy_10__S1_10__mopso__s11__p20_b800_warm_start__e800,toy_10,S1_10,11,mopso,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S1_10__mopso__s12__p20_b800_warm_start__e800,toy_10,S1_10,12,mopso,p20_b800_warm_start,0,FINISHED,True,80.0,2 3 1001 9 5,74.0,169.20304168804213,0.925,1001 9 5,46.0
+toy_10__S1_10__mopso__s12__p20_b800_warm_start__e800,toy_10,S1_10,12,mopso,p20_b800_warm_start,1,FINISHED,True,80.0,6 10 7 1 8 4,67.0,221.84681464974864,0.8375,10 7 1 8 4,54.0
+toy_10__S1_10__mopso__s12__p20_b800_warm_start__e800,toy_10,S1_10,12,mopso,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S1_30__mopso__s11__p20_b800_warm_start__e800,toy_10,S1_30,11,mopso,p20_b800_warm_start,0,FINISHED,True,80.0,2 3 7 6 10,67.0,130.1916577220613,0.8375,,0.0
+toy_10__S1_30__mopso__s11__p20_b800_warm_start__e800,toy_10,S1_30,11,mopso,p20_b800_warm_start,1,FINISHED,True,80.0,9 5 1001 4 1002 8 1,77.0,221.8411840574086,0.9625,8 1,15.0
+toy_10__S1_30__mopso__s11__p20_b800_warm_start__e800,toy_10,S1_30,11,mopso,p20_b800_warm_start,2,FINISHED,True,80.0,1003,15.0,29.03129346067791,0.1875,1003,15.0
+toy_10__S1_30__mopso__s12__p20_b800_warm_start__e800,toy_10,S1_30,12,mopso,p20_b800_warm_start,0,FINISHED,True,80.0,2 3 1001 1 8 4,63.0,171.86439951462856,0.7875,,0.0
+toy_10__S1_30__mopso__s12__p20_b800_warm_start__e800,toy_10,S1_30,12,mopso,p20_b800_warm_start,1,FINISHED,True,80.0,6 7 10 9 5,73.0,202.31898373901456,0.9125,,0.0
+toy_10__S1_30__mopso__s12__p20_b800_warm_start__e800,toy_10,S1_30,12,mopso,p20_b800_warm_start,2,FINISHED,True,80.0,1002 1003,36.0,125.93887170752393,0.45,1003,18.0
+toy_10__S1_50__mopso__s11__p20_b800_warm_start__e800,toy_10,S1_50,11,mopso,p20_b800_warm_start,0,FINISHED,True,80.0,2 3 7 6 10,67.0,130.1916577220613,0.8375,,0.0
+toy_10__S1_50__mopso__s11__p20_b800_warm_start__e800,toy_10,S1_50,11,mopso,p20_b800_warm_start,1,FINISHED,True,80.0,9 5 1002 1001 4 8,76.0,198.10465923406574,0.95,,0.0
+toy_10__S1_50__mopso__s11__p20_b800_warm_start__e800,toy_10,S1_50,11,mopso,p20_b800_warm_start,2,FINISHED,True,80.0,1004 1 1003 1005,26.0,151.0930392167491,0.325,1 1003 1005,21.0
+toy_10__S1_50__mopso__s12__p20_b800_warm_start__e800,toy_10,S1_50,12,mopso,p20_b800_warm_start,0,FINISHED,True,80.0,2 3 1001 1 8 4,63.0,181.67794036564766,0.7875,,0.0
+toy_10__S1_50__mopso__s12__p20_b800_warm_start__e800,toy_10,S1_50,12,mopso,p20_b800_warm_start,1,FINISHED,True,80.0,6 10 7 1004 1005,58.0,122.57873653704169,0.725,1005,5.0
+toy_10__S1_50__mopso__s12__p20_b800_warm_start__e800,toy_10,S1_50,12,mopso,p20_b800_warm_start,2,FINISHED,True,80.0,9 1002 5 1003,61.0,143.77739073588705,0.7625,5 1003,37.0
+toy_10__S2__mopso__s11__p20_b800_warm_start__e800,toy_10,S2,11,mopso,p20_b800_warm_start,0,FINISHED,True,80.0,2 3 7 6 10,67.0,130.1916577220613,0.8375,,0.0
+toy_10__S2__mopso__s11__p20_b800_warm_start__e800,toy_10,S2,11,mopso,p20_b800_warm_start,1,BROKEN,True,80.0,9 5 4,47.0,133.24067522113342,0.5875,,0.0
+toy_10__S2__mopso__s11__p20_b800_warm_start__e800,toy_10,S2,11,mopso,p20_b800_warm_start,2,FINISHED,True,80.0,1 8,15.0,125.85824152691319,0.1875,1 8,15.0
+toy_10__S2__mopso__s12__p20_b800_warm_start__e800,toy_10,S2,12,mopso,p20_b800_warm_start,0,FINISHED,True,80.0,2 3 9 5,62.0,165.57754078092339,0.775,,0.0
+toy_10__S2__mopso__s12__p20_b800_warm_start__e800,toy_10,S2,12,mopso,p20_b800_warm_start,1,FINISHED,True,80.0,6 7 10 1 8 4,67.0,231.21325545325382,0.8375,8 4,19.0
+toy_10__S2__mopso__s12__p20_b800_warm_start__e800,toy_10,S2,12,mopso,p20_b800_warm_start,2,BROKEN,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S3_150__mopso__s11__p20_b800_warm_start__e800,toy_10,S3_150,11,mopso,p20_b800_warm_start,0,FINISHED,True,80.0,2 3 7 10 6,67.0,124.87247960533723,0.8375,,0.0
+toy_10__S3_150__mopso__s11__p20_b800_warm_start__e800,toy_10,S3_150,11,mopso,p20_b800_warm_start,1,FINISHED,True,80.0,9 5 4 8 1,62.0,213.8771039441298,0.775,8 1,15.0
+toy_10__S3_150__mopso__s11__p20_b800_warm_start__e800,toy_10,S3_150,11,mopso,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S3_150__mopso__s12__p20_b800_warm_start__e800,toy_10,S3_150,12,mopso,p20_b800_warm_start,0,FINISHED,True,80.0,2 3 9 5 10,70.0,233.81778217091255,0.875,,0.0
+toy_10__S3_150__mopso__s12__p20_b800_warm_start__e800,toy_10,S3_150,12,mopso,p20_b800_warm_start,1,FINISHED,True,80.0,6 7 1 8 4,59.0,196.883205521223,0.7375,8 4,19.0
+toy_10__S3_150__mopso__s12__p20_b800_warm_start__e800,toy_10,S3_150,12,mopso,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S3_200__mopso__s11__p20_b800_warm_start__e800,toy_10,S3_200,11,mopso,p20_b800_warm_start,0,FINISHED,True,80.0,2 3 7 6 10,67.0,130.1916577220613,0.8375,,0.0
+toy_10__S3_200__mopso__s11__p20_b800_warm_start__e800,toy_10,S3_200,11,mopso,p20_b800_warm_start,1,FINISHED,True,80.0,9 5 4 8 1,62.0,213.8771039441298,0.775,8 1,15.0
+toy_10__S3_200__mopso__s11__p20_b800_warm_start__e800,toy_10,S3_200,11,mopso,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S3_200__mopso__s12__p20_b800_warm_start__e800,toy_10,S3_200,12,mopso,p20_b800_warm_start,0,FINISHED,True,80.0,2 3 9 5 10,70.0,233.81778217091255,0.875,,0.0
+toy_10__S3_200__mopso__s12__p20_b800_warm_start__e800,toy_10,S3_200,12,mopso,p20_b800_warm_start,1,FINISHED,True,80.0,6 7 1 8 4,59.0,196.883205521223,0.7375,8 4,19.0
+toy_10__S3_200__mopso__s12__p20_b800_warm_start__e800,toy_10,S3_200,12,mopso,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S4__mopso__s11__p20_b800_warm_start__e800,toy_10,S4,11,mopso,p20_b800_warm_start,0,FINISHED,True,80.0,2 3 1 8 4,56.0,154.7511648892591,0.7,,0.0
+toy_10__S4__mopso__s11__p20_b800_warm_start__e800,toy_10,S4,11,mopso,p20_b800_warm_start,1,BROKEN,True,80.0,9 7 6 10,55.0,100.96426735697433,0.6875,,0.0
+toy_10__S4__mopso__s11__p20_b800_warm_start__e800,toy_10,S4,11,mopso,p20_b800_warm_start,2,FINISHED,True,80.0,1002 5 1003 1001,63.0,228.24015673566134,0.7875,1003 1001,37.0
+toy_10__S4__mopso__s12__p20_b800_warm_start__e800,toy_10,S4,12,mopso,p20_b800_warm_start,0,BROKEN,True,80.0,2 3 7 10 1,63.0,150.13741572274859,0.7875,,0.0
+toy_10__S4__mopso__s12__p20_b800_warm_start__e800,toy_10,S4,12,mopso,p20_b800_warm_start,1,FINISHED,True,80.0,6 9 5 1003,67.0,181.78680449535307,0.8375,1003,20.0
+toy_10__S4__mopso__s12__p20_b800_warm_start__e800,toy_10,S4,12,mopso,p20_b800_warm_start,2,FINISHED,True,80.0,1001 8 1002 4,29.0,139.69217293101693,0.3625,1001 8 1002 4,29.0
+toy_5__S0__mopso__s11__p20_b800_warm_start__e800,toy_5,S0,11,mopso,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,2 1 4 5 3,68.0
+toy_5__S0__mopso__s11__p20_b800_warm_start__e800,toy_5,S0,11,mopso,p20_b800_warm_start,1,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S0__mopso__s12__p20_b800_warm_start__e800,toy_5,S0,12,mopso,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,2 1 4 5 3,68.0
+toy_5__S0__mopso__s12__p20_b800_warm_start__e800,toy_5,S0,12,mopso,p20_b800_warm_start,1,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S1_10__mopso__s11__p20_b800_warm_start__e800,toy_5,S1_10,11,mopso,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4,44.0,125.53471049272352,0.6285714285714286,4,16.0
+toy_5__S1_10__mopso__s11__p20_b800_warm_start__e800,toy_5,S1_10,11,mopso,p20_b800_warm_start,1,FINISHED,True,70.0,1001 5 3,39.0,134.99991311290518,0.5571428571428572,1001 5 3,39.0
+toy_5__S1_10__mopso__s12__p20_b800_warm_start__e800,toy_5,S1_10,12,mopso,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4,44.0,125.53471049272352,0.6285714285714286,4,16.0
+toy_5__S1_10__mopso__s12__p20_b800_warm_start__e800,toy_5,S1_10,12,mopso,p20_b800_warm_start,1,FINISHED,True,70.0,5 1001 3,36.0,131.05542294647077,0.5142857142857142,5 1001 3,36.0
+toy_5__S1_30__mopso__s11__p20_b800_warm_start__e800,toy_5,S1_30,11,mopso,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4,44.0,125.53471049272352,0.6285714285714286,,0.0
+toy_5__S1_30__mopso__s11__p20_b800_warm_start__e800,toy_5,S1_30,11,mopso,p20_b800_warm_start,1,FINISHED,True,70.0,1001 3 5 1002,39.0,224.54729442834503,0.5571428571428572,1002,6.0
+toy_5__S1_30__mopso__s12__p20_b800_warm_start__e800,toy_5,S1_30,12,mopso,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 1001 1002,69.0,127.8719546072703,0.9857142857142858,1002,18.0
+toy_5__S1_30__mopso__s12__p20_b800_warm_start__e800,toy_5,S1_30,12,mopso,p20_b800_warm_start,1,FINISHED,True,70.0,5 3,24.0,129.61845915765213,0.34285714285714286,,0.0
+toy_5__S1_50__mopso__s11__p20_b800_warm_start__e800,toy_5,S1_50,11,mopso,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4,44.0,125.53471049272352,0.6285714285714286,,0.0
+toy_5__S1_50__mopso__s11__p20_b800_warm_start__e800,toy_5,S1_50,11,mopso,p20_b800_warm_start,1,FINISHED,True,70.0,1001 3 5 1002,47.0,193.24546680251876,0.6714285714285714,1002,12.0
+toy_5__S1_50__mopso__s12__p20_b800_warm_start__e800,toy_5,S1_50,12,mopso,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4,44.0,125.53471049272352,0.6285714285714286,,0.0
+toy_5__S1_50__mopso__s12__p20_b800_warm_start__e800,toy_5,S1_50,12,mopso,p20_b800_warm_start,1,FINISHED,True,70.0,1001 5 3 1002,39.0,138.70151344311466,0.5571428571428572,1002,8.0
+toy_5__S2__mopso__s11__p20_b800_warm_start__e800,toy_5,S2,11,mopso,p20_b800_warm_start,0,BROKEN,True,70.0,2 1 4 5,50.0,115.73465905812418,0.7142857142857143,,0.0
+toy_5__S2__mopso__s11__p20_b800_warm_start__e800,toy_5,S2,11,mopso,p20_b800_warm_start,1,FINISHED,True,70.0,3,18.0,93.22345627576783,0.2571428571428571,3,18.0
+toy_5__S2__mopso__s12__p20_b800_warm_start__e800,toy_5,S2,12,mopso,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,3,18.0
+toy_5__S2__mopso__s12__p20_b800_warm_start__e800,toy_5,S2,12,mopso,p20_b800_warm_start,1,BROKEN,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S3_150__mopso__s11__p20_b800_warm_start__e800,toy_5,S3_150,11,mopso,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,,0.0
+toy_5__S3_150__mopso__s11__p20_b800_warm_start__e800,toy_5,S3_150,11,mopso,p20_b800_warm_start,1,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S3_150__mopso__s12__p20_b800_warm_start__e800,toy_5,S3_150,12,mopso,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,,0.0
+toy_5__S3_150__mopso__s12__p20_b800_warm_start__e800,toy_5,S3_150,12,mopso,p20_b800_warm_start,1,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S3_200__mopso__s11__p20_b800_warm_start__e800,toy_5,S3_200,11,mopso,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,,0.0
+toy_5__S3_200__mopso__s11__p20_b800_warm_start__e800,toy_5,S3_200,11,mopso,p20_b800_warm_start,1,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S3_200__mopso__s12__p20_b800_warm_start__e800,toy_5,S3_200,12,mopso,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,3,18.0
+toy_5__S3_200__mopso__s12__p20_b800_warm_start__e800,toy_5,S3_200,12,mopso,p20_b800_warm_start,1,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S4__mopso__s11__p20_b800_warm_start__e800,toy_5,S4,11,mopso,p20_b800_warm_start,0,BROKEN,True,70.0,2 1 4 1001,64.0,95.42538334180122,0.9142857142857143,,0.0
+toy_5__S4__mopso__s11__p20_b800_warm_start__e800,toy_5,S4,11,mopso,p20_b800_warm_start,1,FINISHED,True,70.0,5 3 1002,32.0,133.14562181084366,0.45714285714285713,1002,8.0
+toy_5__S4__mopso__s12__p20_b800_warm_start__e800,toy_5,S4,12,mopso,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 5 1002,55.0,228.15996338976382,0.7857142857142857,1002,5.0
+toy_5__S4__mopso__s12__p20_b800_warm_start__e800,toy_5,S4,12,mopso,p20_b800_warm_start,1,BROKEN,True,70.0,1001 3,23.0,91.56256901733192,0.32857142857142857,,0.0
+toy_10__S0__nsga2__s11__p20_b800_warm_start__e800,toy_10,S0,11,nsga2,p20_b800_warm_start,0,FINISHED,True,80.0,2 7 6 10 3,67.0,126.86721281406689,0.8375,2 7 6 10 3,67.0
+toy_10__S0__nsga2__s11__p20_b800_warm_start__e800,toy_10,S0,11,nsga2,p20_b800_warm_start,1,FINISHED,True,80.0,9 5 4 8 1,62.0,213.8771039441298,0.775,9 5 4 8 1,62.0
+toy_10__S0__nsga2__s11__p20_b800_warm_start__e800,toy_10,S0,11,nsga2,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S0__nsga2__s12__p20_b800_warm_start__e800,toy_10,S0,12,nsga2,p20_b800_warm_start,0,FINISHED,True,80.0,2 7 10 6,54.0,99.07064666093152,0.675,2 7 10 6,54.0
+toy_10__S0__nsga2__s12__p20_b800_warm_start__e800,toy_10,S0,12,nsga2,p20_b800_warm_start,1,FINISHED,True,80.0,3 1 8 4 5 9,75.0,223.23825441570648,0.9375,3 1 8 4 5 9,75.0
+toy_10__S0__nsga2__s12__p20_b800_warm_start__e800,toy_10,S0,12,nsga2,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S1_10__nsga2__s11__p20_b800_warm_start__e800,toy_10,S1_10,11,nsga2,p20_b800_warm_start,0,FINISHED,True,80.0,2 7 10 6 5,72.0,188.64806215158518,0.9,10 6 5,39.0
+toy_10__S1_10__nsga2__s11__p20_b800_warm_start__e800,toy_10,S1_10,11,nsga2,p20_b800_warm_start,1,FINISHED,True,80.0,9 1001 4 8 1 3,72.0,197.13514806970616,0.9,1001 4 8 1 3,56.0
+toy_10__S1_10__nsga2__s11__p20_b800_warm_start__e800,toy_10,S1_10,11,nsga2,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S1_10__nsga2__s12__p20_b800_warm_start__e800,toy_10,S1_10,12,nsga2,p20_b800_warm_start,0,FINISHED,True,80.0,2 7 10 6 9,70.0,131.8653805502263,0.875,10 6 9,37.0
+toy_10__S1_10__nsga2__s12__p20_b800_warm_start__e800,toy_10,S1_10,12,nsga2,p20_b800_warm_start,1,FINISHED,True,80.0,3 1 8 4 1001 5,71.0,239.08291263211996,0.8875,8 4 1001 5,49.0
+toy_10__S1_10__nsga2__s12__p20_b800_warm_start__e800,toy_10,S1_10,12,nsga2,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S1_30__nsga2__s11__p20_b800_warm_start__e800,toy_10,S1_30,11,nsga2,p20_b800_warm_start,0,FINISHED,True,80.0,2 7 6 10 3 1,76.0,184.70007398043305,0.95,,0.0
+toy_10__S1_30__nsga2__s11__p20_b800_warm_start__e800,toy_10,S1_30,11,nsga2,p20_b800_warm_start,1,FINISHED,True,80.0,9 5 1001 4 1002 8,68.0,205.3200908379211,0.85,1002 8,12.0
+toy_10__S1_30__nsga2__s11__p20_b800_warm_start__e800,toy_10,S1_30,11,nsga2,p20_b800_warm_start,2,FINISHED,True,80.0,1003,15.0,29.03129346067791,0.1875,1003,15.0
+toy_10__S1_30__nsga2__s12__p20_b800_warm_start__e800,toy_10,S1_30,12,nsga2,p20_b800_warm_start,0,FINISHED,True,80.0,2 7 6 10 1001 1002,79.0,121.97902614356832,0.9875,,0.0
+toy_10__S1_30__nsga2__s12__p20_b800_warm_start__e800,toy_10,S1_30,12,nsga2,p20_b800_warm_start,1,FINISHED,True,80.0,3 1 8 4 5,59.0,218.10708575970335,0.7375,,0.0
+toy_10__S1_30__nsga2__s12__p20_b800_warm_start__e800,toy_10,S1_30,12,nsga2,p20_b800_warm_start,2,FINISHED,True,80.0,9 1003,34.0,133.9534010562175,0.425,9 1003,34.0
+toy_10__S1_50__nsga2__s11__p20_b800_warm_start__e800,toy_10,S1_50,11,nsga2,p20_b800_warm_start,0,FINISHED,True,80.0,2 7 6 10 3 1004,72.0,173.41757611698432,0.9,,0.0
+toy_10__S1_50__nsga2__s11__p20_b800_warm_start__e800,toy_10,S1_50,11,nsga2,p20_b800_warm_start,1,FINISHED,True,80.0,9 5 1002 1001,57.0,123.9045959510735,0.7125,,0.0
+toy_10__S1_50__nsga2__s11__p20_b800_warm_start__e800,toy_10,S1_50,11,nsga2,p20_b800_warm_start,2,FINISHED,True,80.0,1 8 4 1003 1005,40.0,147.7846402831071,0.5,8 4 1003 1005,31.0
+toy_10__S1_50__nsga2__s12__p20_b800_warm_start__e800,toy_10,S1_50,12,nsga2,p20_b800_warm_start,0,FINISHED,True,80.0,2 7 6 10 1001 1004,75.0,127.73543068892184,0.9375,1004,14.0
+toy_10__S1_50__nsga2__s12__p20_b800_warm_start__e800,toy_10,S1_50,12,nsga2,p20_b800_warm_start,1,FINISHED,True,80.0,3 1 8 4 1003,60.0,160.46129550077,0.75,,0.0
+toy_10__S1_50__nsga2__s12__p20_b800_warm_start__e800,toy_10,S1_50,12,nsga2,p20_b800_warm_start,2,FINISHED,True,80.0,9 1002 5 1005,47.0,139.55121544602275,0.5875,1002 5 1005,31.0
+toy_10__S2__nsga2__s11__p20_b800_warm_start__e800,toy_10,S2,11,nsga2,p20_b800_warm_start,0,FINISHED,True,80.0,2 7 6 10 3,67.0,126.86721281406689,0.8375,,0.0
+toy_10__S2__nsga2__s11__p20_b800_warm_start__e800,toy_10,S2,11,nsga2,p20_b800_warm_start,1,BROKEN,True,80.0,9 5 4,47.0,133.24067522113342,0.5875,,0.0
+toy_10__S2__nsga2__s11__p20_b800_warm_start__e800,toy_10,S2,11,nsga2,p20_b800_warm_start,2,FINISHED,True,80.0,1 8,15.0,125.85824152691319,0.1875,1 8,15.0
+toy_10__S2__nsga2__s12__p20_b800_warm_start__e800,toy_10,S2,12,nsga2,p20_b800_warm_start,0,FINISHED,True,80.0,2 7 10 6 9,70.0,131.8653805502263,0.875,9,16.0
+toy_10__S2__nsga2__s12__p20_b800_warm_start__e800,toy_10,S2,12,nsga2,p20_b800_warm_start,1,FINISHED,True,80.0,3 1 8 4 5,59.0,218.10708575970335,0.7375,5,18.0
+toy_10__S2__nsga2__s12__p20_b800_warm_start__e800,toy_10,S2,12,nsga2,p20_b800_warm_start,2,BROKEN,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S3_150__nsga2__s11__p20_b800_warm_start__e800,toy_10,S3_150,11,nsga2,p20_b800_warm_start,0,FINISHED,True,80.0,2 7 6 10 3,67.0,126.86721281406689,0.8375,,0.0
+toy_10__S3_150__nsga2__s11__p20_b800_warm_start__e800,toy_10,S3_150,11,nsga2,p20_b800_warm_start,1,FINISHED,True,80.0,9 5 4 8 1,62.0,213.8771039441298,0.775,8 1,15.0
+toy_10__S3_150__nsga2__s11__p20_b800_warm_start__e800,toy_10,S3_150,11,nsga2,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S3_150__nsga2__s12__p20_b800_warm_start__e800,toy_10,S3_150,12,nsga2,p20_b800_warm_start,0,FINISHED,True,80.0,2 7 10 6 9,70.0,131.8653805502263,0.875,,0.0
+toy_10__S3_150__nsga2__s12__p20_b800_warm_start__e800,toy_10,S3_150,12,nsga2,p20_b800_warm_start,1,FINISHED,True,80.0,3 1 8 4 5,59.0,218.10708575970335,0.7375,,0.0
+toy_10__S3_150__nsga2__s12__p20_b800_warm_start__e800,toy_10,S3_150,12,nsga2,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S3_200__nsga2__s11__p20_b800_warm_start__e800,toy_10,S3_200,11,nsga2,p20_b800_warm_start,0,FINISHED,True,80.0,2 7 6 10 3,67.0,126.86721281406689,0.8375,,0.0
+toy_10__S3_200__nsga2__s11__p20_b800_warm_start__e800,toy_10,S3_200,11,nsga2,p20_b800_warm_start,1,FINISHED,True,80.0,9 5 4 8 1,62.0,213.8771039441298,0.775,8 1,15.0
+toy_10__S3_200__nsga2__s11__p20_b800_warm_start__e800,toy_10,S3_200,11,nsga2,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S3_200__nsga2__s12__p20_b800_warm_start__e800,toy_10,S3_200,12,nsga2,p20_b800_warm_start,0,FINISHED,True,80.0,2 7 10 6 9,70.0,131.8653805502263,0.875,,0.0
+toy_10__S3_200__nsga2__s12__p20_b800_warm_start__e800,toy_10,S3_200,12,nsga2,p20_b800_warm_start,1,FINISHED,True,80.0,3 1 8 4 5,59.0,218.10708575970335,0.7375,,0.0
+toy_10__S3_200__nsga2__s12__p20_b800_warm_start__e800,toy_10,S3_200,12,nsga2,p20_b800_warm_start,2,IDLE,False,80.0,,0.0,0.0,0.0,,0.0
+toy_10__S4__nsga2__s11__p20_b800_warm_start__e800,toy_10,S4,11,nsga2,p20_b800_warm_start,0,FINISHED,True,80.0,2 7 6 10 1001,74.0,125.46874770528115,0.925,,0.0
+toy_10__S4__nsga2__s11__p20_b800_warm_start__e800,toy_10,S4,11,nsga2,p20_b800_warm_start,1,BROKEN,True,80.0,9 5 4,47.0,133.24067522113342,0.5875,,0.0
+toy_10__S4__nsga2__s11__p20_b800_warm_start__e800,toy_10,S4,11,nsga2,p20_b800_warm_start,2,FINISHED,True,80.0,3 1003 1 8 1002,53.0,163.08422050042515,0.6625,1003 1 8 1002,40.0
+toy_10__S4__nsga2__s12__p20_b800_warm_start__e800,toy_10,S4,12,nsga2,p20_b800_warm_start,0,BROKEN,True,80.0,2 7 10 6 9,70.0,102.34399000032163,0.875,,0.0
+toy_10__S4__nsga2__s12__p20_b800_warm_start__e800,toy_10,S4,12,nsga2,p20_b800_warm_start,1,FINISHED,True,80.0,3 1 1001 8 4 1002,51.0,165.0129683240507,0.6375,,0.0
+toy_10__S4__nsga2__s12__p20_b800_warm_start__e800,toy_10,S4,12,nsga2,p20_b800_warm_start,2,FINISHED,True,80.0,1003 5,38.0,143.1743167381414,0.475,1003 5,38.0
+toy_5__S0__nsga2__s11__p20_b800_warm_start__e800,toy_5,S0,11,nsga2,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,2 1 4 5 3,68.0
+toy_5__S0__nsga2__s11__p20_b800_warm_start__e800,toy_5,S0,11,nsga2,p20_b800_warm_start,1,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S0__nsga2__s12__p20_b800_warm_start__e800,toy_5,S0,12,nsga2,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,2 1 4 5 3,68.0
+toy_5__S0__nsga2__s12__p20_b800_warm_start__e800,toy_5,S0,12,nsga2,p20_b800_warm_start,1,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S1_10__nsga2__s11__p20_b800_warm_start__e800,toy_5,S1_10,11,nsga2,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4,44.0,125.53471049272352,0.6285714285714286,4,16.0
+toy_5__S1_10__nsga2__s11__p20_b800_warm_start__e800,toy_5,S1_10,11,nsga2,p20_b800_warm_start,1,FINISHED,True,70.0,1001 5 3,39.0,134.99991311290518,0.5571428571428572,1001 5 3,39.0
+toy_5__S1_10__nsga2__s12__p20_b800_warm_start__e800,toy_5,S1_10,12,nsga2,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4,44.0,125.53471049272352,0.6285714285714286,4,16.0
+toy_5__S1_10__nsga2__s12__p20_b800_warm_start__e800,toy_5,S1_10,12,nsga2,p20_b800_warm_start,1,FINISHED,True,70.0,5 1001 3,36.0,131.05542294647077,0.5142857142857142,5 1001 3,36.0
+toy_5__S1_30__nsga2__s11__p20_b800_warm_start__e800,toy_5,S1_30,11,nsga2,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4,44.0,125.53471049272352,0.6285714285714286,,0.0
+toy_5__S1_30__nsga2__s11__p20_b800_warm_start__e800,toy_5,S1_30,11,nsga2,p20_b800_warm_start,1,FINISHED,True,70.0,1001 3 5 1002,39.0,224.54729442834503,0.5571428571428572,1002,6.0
+toy_5__S1_30__nsga2__s12__p20_b800_warm_start__e800,toy_5,S1_30,12,nsga2,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 1001 1002,69.0,127.8719546072703,0.9857142857142858,1002,18.0
+toy_5__S1_30__nsga2__s12__p20_b800_warm_start__e800,toy_5,S1_30,12,nsga2,p20_b800_warm_start,1,FINISHED,True,70.0,5 3,24.0,129.61845915765213,0.34285714285714286,,0.0
+toy_5__S1_50__nsga2__s11__p20_b800_warm_start__e800,toy_5,S1_50,11,nsga2,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4,44.0,125.53471049272352,0.6285714285714286,,0.0
+toy_5__S1_50__nsga2__s11__p20_b800_warm_start__e800,toy_5,S1_50,11,nsga2,p20_b800_warm_start,1,FINISHED,True,70.0,1001 3 5 1002,47.0,193.24546680251876,0.6714285714285714,1002,12.0
+toy_5__S1_50__nsga2__s12__p20_b800_warm_start__e800,toy_5,S1_50,12,nsga2,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4,44.0,125.53471049272352,0.6285714285714286,,0.0
+toy_5__S1_50__nsga2__s12__p20_b800_warm_start__e800,toy_5,S1_50,12,nsga2,p20_b800_warm_start,1,FINISHED,True,70.0,1001 5 3 1002,39.0,138.70151344311466,0.5571428571428572,1002,8.0
+toy_5__S2__nsga2__s11__p20_b800_warm_start__e800,toy_5,S2,11,nsga2,p20_b800_warm_start,0,BROKEN,True,70.0,2 1 4 5,50.0,115.73465905812418,0.7142857142857143,,0.0
+toy_5__S2__nsga2__s11__p20_b800_warm_start__e800,toy_5,S2,11,nsga2,p20_b800_warm_start,1,FINISHED,True,70.0,3,18.0,93.22345627576783,0.2571428571428571,3,18.0
+toy_5__S2__nsga2__s12__p20_b800_warm_start__e800,toy_5,S2,12,nsga2,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,3,18.0
+toy_5__S2__nsga2__s12__p20_b800_warm_start__e800,toy_5,S2,12,nsga2,p20_b800_warm_start,1,BROKEN,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S3_150__nsga2__s11__p20_b800_warm_start__e800,toy_5,S3_150,11,nsga2,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,,0.0
+toy_5__S3_150__nsga2__s11__p20_b800_warm_start__e800,toy_5,S3_150,11,nsga2,p20_b800_warm_start,1,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S3_150__nsga2__s12__p20_b800_warm_start__e800,toy_5,S3_150,12,nsga2,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,,0.0
+toy_5__S3_150__nsga2__s12__p20_b800_warm_start__e800,toy_5,S3_150,12,nsga2,p20_b800_warm_start,1,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S3_200__nsga2__s11__p20_b800_warm_start__e800,toy_5,S3_200,11,nsga2,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,,0.0
+toy_5__S3_200__nsga2__s11__p20_b800_warm_start__e800,toy_5,S3_200,11,nsga2,p20_b800_warm_start,1,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S3_200__nsga2__s12__p20_b800_warm_start__e800,toy_5,S3_200,12,nsga2,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 5 3,68.0,219.524153854037,0.9714285714285714,3,18.0
+toy_5__S3_200__nsga2__s12__p20_b800_warm_start__e800,toy_5,S3_200,12,nsga2,p20_b800_warm_start,1,IDLE,False,70.0,,0.0,0.0,0.0,,0.0
+toy_5__S4__nsga2__s11__p20_b800_warm_start__e800,toy_5,S4,11,nsga2,p20_b800_warm_start,0,BROKEN,True,70.0,2 1 4 1001,64.0,95.42538334180122,0.9142857142857143,,0.0
+toy_5__S4__nsga2__s11__p20_b800_warm_start__e800,toy_5,S4,11,nsga2,p20_b800_warm_start,1,FINISHED,True,70.0,5 3 1002,32.0,133.14562181084366,0.45714285714285713,1002,8.0
+toy_5__S4__nsga2__s12__p20_b800_warm_start__e800,toy_5,S4,12,nsga2,p20_b800_warm_start,0,FINISHED,True,70.0,2 1 4 5 1002,55.0,228.15996338976382,0.7857142857142857,1002,5.0
+toy_5__S4__nsga2__s12__p20_b800_warm_start__e800,toy_5,S4,12,nsga2,p20_b800_warm_start,1,BROKEN,True,70.0,1001 3,23.0,91.56256901733192,0.32857142857142857,,0.0

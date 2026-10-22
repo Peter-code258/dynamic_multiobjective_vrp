@@ -1,0 +1,11 @@
+# 场景参数片段（不是可运行的实验配置）：组合压力场景，新增订单 + 车辆故障 + 拥堵。
+# 用法：把下列字段作为一项写入实验配置的 scenarios.specs（可直接使用 quick.yaml 的 S4）。
+scenario_id: S4
+horizon: 600.0
+seed: 2026
+new_order_ratio: 0.30
+breakdown_count: 1
+congestion_edge_ratio: 0.20
+congestion_multiplier: 1.50
+congestion_duration_ratio: 0.25
+simultaneous: true

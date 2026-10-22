@@ -1,0 +1,44 @@
+{
+  "scenario_id": "S1_50",
+  "seed": 14185,
+  "intensity": {
+    "new_order_ratio": 0.5,
+    "breakdown_count": 0,
+    "congestion_edge_ratio": 0.0,
+    "congestion_multiplier": 1.0
+  },
+  "metadata": {
+    "instance_id": "toy_5",
+    "horizon": 304.40519231754627,
+    "generator_version": "1.1",
+    "note": "合成动态事件，非官方动态基准"
+  },
+  "events": [
+    {
+      "event_id": "e001",
+      "type": "NEW_ORDER",
+      "time": 24.51,
+      "customer": {
+        "customer_id": 1001,
+        "x": 52.39,
+        "y": 73.75,
+        "demand": 7.0,
+        "service_time": 2.0,
+        "release_time": 24.51
+      }
+    },
+    {
+      "event_id": "e002",
+      "type": "NEW_ORDER",
+      "time": 162.51,
+      "customer": {
+        "customer_id": 1002,
+        "x": 83.18,
+        "y": 28.51,
+        "demand": 8.0,
+        "service_time": 3.0,
+        "release_time": 162.51
+      }
+    }
+  ]
+}

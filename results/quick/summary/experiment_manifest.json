@@ -1,0 +1,82 @@
+{
+  "output_dir": "D:\\23-兴湘计科\\动态多目标车辆路径规划\\dynamic_multiobjective_vrp\\results/quick",
+  "runs": 128,
+  "instances": [
+    "toy_10",
+    "toy_5"
+  ],
+  "scenarios": [
+    "S0",
+    "S1_10",
+    "S1_30",
+    "S1_50",
+    "S2",
+    "S3_150",
+    "S3_200",
+    "S4"
+  ],
+  "algorithms": [
+    "greedy",
+    "moaco",
+    "mopso",
+    "nsga2"
+  ],
+  "seeds": [
+    11,
+    12
+  ],
+  "variants": [
+    "p20_b800_warm_start"
+  ],
+  "created_at": "2026-10-22T14:11:26",
+  "config_hash": null,
+  "software": {
+    "python": "3.9.13",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "packages": {
+      "numpy": "2.0.2",
+      "scipy": "1.13.1",
+      "pandas": "2.3.3",
+      "matplotlib": "3.9.4",
+      "PyYAML": "6.0.3"
+    },
+    "git_commit": null
+  },
+  "data_sha256": {
+    "toy_10.json": "f0bba6eac418d2942aac427ad5e13a0b8c3f257168fa444cd7958d477f682c43",
+    "toy_10__S0__s11.json": "863955cd510265242a9aa5560b478fafe1f67695a99604dbd1a51b315ceef8c4",
+    "toy_10__S0__s12.json": "c1a0f92f6bd59f1cdbbb543904a6fc3ad521bae04b853b3ff02f2d5a2f91958c",
+    "toy_10__S1_10__s11.json": "f506cc7b24743bf1c95b8d7422922a3f04e97fc7fdaa654cb5369c22a7d49f60",
+    "toy_10__S1_10__s12.json": "3484a32eb4fdc7965c8ece69787fe61da72e801a0c40cca61a141620f277c509",
+    "toy_10__S1_30__s11.json": "13d76fba8180497fc933d590a69544c882350b20fa213343b24691f1d878b430",
+    "toy_10__S1_30__s12.json": "f1fc8c86e35e254a2cafc4d45e955e95edcb0e066549385e0a398635d5ae34b5",
+    "toy_10__S1_50__s11.json": "db7b8610dcb504d7ffd42b5ff829885c11bcad2e555ca0aa3a0a2fb97e322ad3",
+    "toy_10__S1_50__s12.json": "a813792e5406f331c0eed5e738fec2e483cef23450007b2d8691c432bfc89d96",
+    "toy_10__S2__s11.json": "2f72dac30f4dbf86b61bff03830f61088b9ffe26385e73c945cec063b29df28c",
+    "toy_10__S2__s12.json": "2a2ca51968974d766c6a6a20cfe93954d0381179ca4f3760f54151ec57bc9ff8",
+    "toy_10__S3_150__s11.json": "c26ca213cc57da8b7096c28253a3384b2a299637a7bc18b40d4b51fd3ae6e63e",
+    "toy_10__S3_150__s12.json": "d8bc9529cfc45a32ff16e6a249137655db46d77fdbb66e28f3a82c1db220ea5b",
+    "toy_10__S3_200__s11.json": "1e3ab377cb63106c85d5f1d3502ec39a91d7dad3ba5a0bc25b305e91fcad1a12",
+    "toy_10__S3_200__s12.json": "6080db8f25f3fdc47a96ad91193a769c3fec99281a6bd4365010e349b8bcbf29",
+    "toy_10__S4__s11.json": "4ed24f2cca847fbcf5bac3ede021941b98a709ed0958bed6cc0b1504dd1194cb",
+    "toy_10__S4__s12.json": "887e54d95b03f6aefdf5dfca1dbfd49fee089f981503696cfc82046fbac8288d",
+    "toy_5.json": "14a2b2cebb954cbf31bdc6e1d563a0637fac2f0210ac23372301c53bb71a22bb",
+    "toy_5__S0__s11.json": "8a3eb161a06d0ef3eaad0f0a6622518e7cdd7505e457f63516de3486cab80905",
+    "toy_5__S0__s12.json": "dc37486f82c8e82b5f34de858fddb40354f4afebe495ff6ff716f2fa7547b0e7",
+    "toy_5__S1_10__s11.json": "8cfef079b1e63831770ad2cc4f5293ad0e50788056eaca04cf2c6a44acbf9d09",
+    "toy_5__S1_10__s12.json": "c1498071a6fa7e670c4477143eb84581269d9c65285fe755e6d5a41369645d66",
+    "toy_5__S1_30__s11.json": "d2ef4c7564c875bb3ed423a4129cfe8000af1ff61c82885ac63870fa8ee20ad9",
+    "toy_5__S1_30__s12.json": "9c03dd6b7ba3deead79ddb65b59349e6b3358741bfe4e2d0d92765f89d0b5bed",
+    "toy_5__S1_50__s11.json": "94b5fd6b20d31f37c5f03510dc49ebff52645078ccb4982c1f1b2db79831ea47",
+    "toy_5__S1_50__s12.json": "a74f38e0d5ff4bb61dc43320eec3d572c524a454ef837571752015cbb8e7a73b",
+    "toy_5__S2__s11.json": "9175392935e099e9f8143cb8c8de3bf8d6c3988657271feb8226e7de1998e3fb",
+    "toy_5__S2__s12.json": "4e8cf84b3b48238141c4098855206220bd341dcb4a9b013f4fe8c8d3a3938a0d",
+    "toy_5__S3_150__s11.json": "a71ff8e98cbac76a78b1a75f087b0c178408c872d1131bd6c4c05c6d0bdaa0a4",
+    "toy_5__S3_150__s12.json": "8d7d3202fad043ff3339df62f7e42f1f3f0b05e777835e73c692139220323c9a",
+    "toy_5__S3_200__s11.json": "a7601e131a363e22d1420ee99c97202a3750ba9ced64ac6e66ccde2e0cc3f9cd",
+    "toy_5__S3_200__s12.json": "acead2557c8fb9010d141e31bf0fc1a971ac5ac108aecd19ccfc4065f3db97f3",
+    "toy_5__S4__s11.json": "c916dc5d18a239a54c0f03e0a05ff9373962a661b10d61c584dbd1a9585ef29b",
+    "toy_5__S4__s12.json": "9033ff28fb4c25cdf1cc41a65209ad1847b98fb6c16e7b4f61b2137bbd5322ed"
+  },
+  "note": "所有数值来自本次实际运行；动态事件为合成场景，不是官方动态基准。"
+}

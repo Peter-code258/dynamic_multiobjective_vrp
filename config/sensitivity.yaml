@@ -1,0 +1,42 @@
+# E7 参数敏感性：种群规模 × 评价预算。运行器会做笛卡尔积并写入 variant_id。
+project:
+  name: dynamic_multiobjective_vrp_sensitivity
+  version: "1.0"
+
+paths:
+  instance_dir: data/instances
+  scenario_dir: data/scenarios
+
+instance_specs:
+  - instance_id: toy_20
+    num_customers: 20
+    num_vehicles: 5
+    capacity: 80
+    seed: 2028
+
+scenarios:
+  horizon: null
+  base_seed: 2026
+  specs:
+    - {id: S1_30, new_order_ratio: 0.30}
+    - {id: S2, breakdown_count: 1}
+
+planner:
+  algorithms: [nsga2, mopso, moaco]
+  population_sizes: [20, 40]
+  evaluation_budgets: [500, 1500]
+  response_strategies: [warm_start]
+  archive_size: 60
+  crossover_rate: 0.9
+  mutation_rate: 0.2
+  pheromone_evaporation: 0.2
+
+simulation:
+  speed: 1.0
+  selection_rule: ideal_point
+
+experiment:
+  instances: [toy_20]
+  scenarios: [S1_30, S2]
+  seeds: [11, 12]
+  output_dir: results/sensitivity

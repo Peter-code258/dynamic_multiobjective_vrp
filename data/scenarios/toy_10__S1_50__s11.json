@@ -1,0 +1,83 @@
+{
+  "scenario_id": "S1_50",
+  "seed": 13176,
+  "intensity": {
+    "new_order_ratio": 0.5,
+    "breakdown_count": 0,
+    "congestion_edge_ratio": 0.0,
+    "congestion_multiplier": 1.0
+  },
+  "metadata": {
+    "instance_id": "toy_10",
+    "horizon": 290.61757548162865,
+    "generator_version": "1.1",
+    "note": "合成动态事件，非官方动态基准"
+  },
+  "events": [
+    {
+      "event_id": "e001",
+      "type": "NEW_ORDER",
+      "time": 23.68,
+      "customer": {
+        "customer_id": 1001,
+        "x": 68.61,
+        "y": 8.48,
+        "demand": 11.0,
+        "service_time": 2.0,
+        "release_time": 23.68
+      }
+    },
+    {
+      "event_id": "e002",
+      "type": "NEW_ORDER",
+      "time": 62.1,
+      "customer": {
+        "customer_id": 1002,
+        "x": 74.45,
+        "y": 10.5,
+        "demand": 12.0,
+        "service_time": 2.0,
+        "release_time": 62.1
+      }
+    },
+    {
+      "event_id": "e003",
+      "type": "NEW_ORDER",
+      "time": 97.31,
+      "customer": {
+        "customer_id": 1003,
+        "x": 15.56,
+        "y": 10.82,
+        "demand": 7.0,
+        "service_time": 3.0,
+        "release_time": 97.31
+      }
+    },
+    {
+      "event_id": "e004",
+      "type": "NEW_ORDER",
+      "time": 124.99,
+      "customer": {
+        "customer_id": 1004,
+        "x": 7.48,
+        "y": 55.73,
+        "demand": 5.0,
+        "service_time": 3.0,
+        "release_time": 124.99
+      }
+    },
+    {
+      "event_id": "e005",
+      "type": "NEW_ORDER",
+      "time": 165.47,
+      "customer": {
+        "customer_id": 1005,
+        "x": 37.25,
+        "y": 53.89,
+        "demand": 5.0,
+        "service_time": 4.0,
+        "release_time": 165.47
+      }
+    }
+  ]
+}

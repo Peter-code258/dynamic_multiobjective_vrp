@@ -1,0 +1,41 @@
+﻿# E8 规模实验：25 / 50 / 100 / 200 客户。计算量较大，建议先用 quick.yaml 验证流程。
+project:
+  name: dynamic_multiobjective_vrp_scale
+  version: "1.0"
+
+paths:
+  instance_dir: data/instances
+  scenario_dir: data/scenarios
+
+instance_specs:
+  - {instance_id: scale_25, num_customers: 25, num_vehicles: 8, capacity: 80, seed: 3026}
+  - {instance_id: scale_50, num_customers: 50, num_vehicles: 14, capacity: 80, seed: 3027}
+  - {instance_id: scale_100, num_customers: 100, num_vehicles: 26, capacity: 80, seed: 3028}
+  - {instance_id: scale_200, num_customers: 200, num_vehicles: 51, capacity: 80, seed: 3029}
+
+scenarios:
+  horizon: null
+  base_seed: 2026
+  specs:
+    - {id: S0}
+    - {id: S2, breakdown_ratio: 0.10}
+
+planner:
+  algorithms: [nsga2, mopso, moaco]
+  population_size: 40
+  max_evaluations: 2000
+  archive_size: 80
+  crossover_rate: 0.9
+  mutation_rate: 0.2
+  response_strategy: warm_start
+  pheromone_evaporation: 0.2
+
+simulation:
+  speed: 1.0
+  selection_rule: ideal_point
+
+experiment:
+  instances: [scale_25, scale_50, scale_100, scale_200]
+  scenarios: [S0, S2]
+  seeds: [11]
+  output_dir: results/scale

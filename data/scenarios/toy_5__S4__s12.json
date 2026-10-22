@@ -1,0 +1,73 @@
+{
+  "scenario_id": "S4",
+  "seed": 14253,
+  "intensity": {
+    "new_order_ratio": 0.3,
+    "breakdown_count": 1,
+    "congestion_edge_ratio": 0.2,
+    "congestion_multiplier": 1.5
+  },
+  "metadata": {
+    "instance_id": "toy_5",
+    "horizon": 304.40519231754627,
+    "generator_version": "1.1",
+    "note": "合成动态事件，非官方动态基准"
+  },
+  "events": [
+    {
+      "event_id": "e001",
+      "type": "NEW_ORDER",
+      "time": 25.82,
+      "customer": {
+        "customer_id": 1001,
+        "x": 24.83,
+        "y": 42.76,
+        "demand": 5.0,
+        "service_time": 6.0,
+        "release_time": 25.82
+      }
+    },
+    {
+      "event_id": "e002",
+      "type": "CONGESTION_START",
+      "time": 45.66,
+      "period_id": "S4_cong_1",
+      "edges": [
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "travel_time_multiplier": 1.5,
+      "duration": 76.10129807938657
+    },
+    {
+      "event_id": "e003",
+      "type": "VEHICLE_BREAKDOWN",
+      "time": 120.21,
+      "vehicle_id": 1,
+      "repairable": false
+    },
+    {
+      "event_id": "e004",
+      "type": "NEW_ORDER",
+      "time": 173.43,
+      "customer": {
+        "customer_id": 1002,
+        "x": 20.97,
+        "y": 17.57,
+        "demand": 5.0,
+        "service_time": 2.0,
+        "release_time": 173.43
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "instance_id": "toy_5",
+  "depot": {
+    "id": 0,
+    "x": 50.0,
+    "y": 50.0
+  },
+  "vehicles": [
+    {
+      "vehicle_id": 0,
+      "capacity": 70.0,
+      "start_time": 0.0
+    },
+    {
+      "vehicle_id": 1,
+      "capacity": 70.0,
+      "start_time": 0.0
+    }
+  ],
+  "customers": [
+    {
+      "customer_id": 1,
+      "x": 21.1,
+      "y": 62.59,
+      "demand": 10.0,
+      "service_time": 4.0,
+      "release_time": 0.0,
+      "ready_time": 0.0,
+      "due_time": null
+    },
+    {
+      "customer_id": 2,
+      "x": 38.35,
+      "y": 36.94,
+      "demand": 18.0,
+      "service_time": 5.0,
+      "release_time": 0.0,
+      "ready_time": 0.0,
+      "due_time": null
+    },
+    {
+      "customer_id": 3,
+      "x": 86.46,
+      "y": 20.96,
+      "demand": 18.0,
+      "service_time": 5.0,
+      "release_time": 0.0,
+      "ready_time": 0.0,
+      "due_time": null
+    },
+    {
+      "customer_id": 4,
+      "x": 31.85,
+      "y": 92.03,
+      "demand": 16.0,
+      "service_time": 6.0,
+      "release_time": 0.0,
+      "ready_time": 0.0,
+      "due_time": null
+    },
+    {
+      "customer_id": 5,
+      "x": 62.23,
+      "y": 72.75,
+      "demand": 6.0,
+      "service_time": 4.0,
+      "release_time": 0.0,
+      "ready_time": 0.0,
+      "due_time": null
+    }
+  ],
+  "distance_type": "euclidean",
+  "time_unit": "minute",
+  "distance_unit": "distance_unit",
+  "source": "synthetic-toy",
+  "metadata": {
+    "seed": 2026,
+    "generator_version": "1.1"
+  }
+}

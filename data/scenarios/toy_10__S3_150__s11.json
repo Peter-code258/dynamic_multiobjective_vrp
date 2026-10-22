@@ -1,0 +1,126 @@
+{
+  "scenario_id": "S3_150",
+  "seed": 13210,
+  "intensity": {
+    "new_order_ratio": 0.0,
+    "breakdown_count": 0,
+    "congestion_edge_ratio": 0.2,
+    "congestion_multiplier": 1.5
+  },
+  "metadata": {
+    "instance_id": "toy_10",
+    "horizon": 290.61757548162865,
+    "generator_version": "1.1",
+    "note": "合成动态事件，非官方动态基准"
+  },
+  "events": [
+    {
+      "event_id": "e001",
+      "type": "CONGESTION_START",
+      "time": 43.59,
+      "period_id": "S3_150_cong_1",
+      "edges": [
+        [
+          6,
+          7
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "travel_time_multiplier": 1.5,
+      "duration": 72.65439387040716
+    },
+    {
+      "event_id": "e002",
+      "type": "CONGESTION_START",
+      "time": 130.78,
+      "period_id": "S3_150_cong_2",
+      "edges": [
+        [
+          6,
+          7
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "travel_time_multiplier": 1.5,
+      "duration": 72.65439387040716
+    }
+  ]
+}

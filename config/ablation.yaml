@@ -1,0 +1,53 @@
+# E6 消融实验：比较动态响应策略（restart / local_repair / warm_start）。
+# 同一实例、场景与种子下三种算法读取完全相同的事件文件。
+project:
+  name: dynamic_multiobjective_vrp_ablation
+  version: "1.0"
+
+paths:
+  instance_dir: data/instances
+  scenario_dir: data/scenarios
+
+instance_specs:
+  - instance_id: toy_10
+    num_customers: 10
+    num_vehicles: 3
+    capacity: 80
+    seed: 2027
+
+scenarios:
+  horizon: null
+  base_seed: 2026
+  specs:
+    - {id: S0}
+    - {id: S2, breakdown_count: 1}
+    - id: S4
+      new_order_ratio: 0.30
+      breakdown_count: 1
+      congestion_edge_ratio: 0.20
+      congestion_multiplier: 1.50
+      simultaneous: true
+
+planner:
+  algorithms: [nsga2, mopso, moaco]
+  population_size: 30
+  max_evaluations: 1500
+  archive_size: 60
+  crossover_rate: 0.9
+  mutation_rate: 0.2
+  pheromone_evaporation: 0.2
+  variants:
+    - {id: restart, response_strategy: restart}
+    - {id: local_repair, response_strategy: local_repair}
+    - {id: warm_start, response_strategy: warm_start}
+    - {id: mixed, response_strategy: mixed}
+
+simulation:
+  speed: 1.0
+  selection_rule: ideal_point
+
+experiment:
+  instances: [toy_10]
+  scenarios: [S0, S2, S4]
+  seeds: [11, 12, 13]
+  output_dir: results/ablation

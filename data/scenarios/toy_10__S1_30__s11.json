@@ -1,0 +1,57 @@
+{
+  "scenario_id": "S1_30",
+  "seed": 13159,
+  "intensity": {
+    "new_order_ratio": 0.3,
+    "breakdown_count": 0,
+    "congestion_edge_ratio": 0.0,
+    "congestion_multiplier": 1.0
+  },
+  "metadata": {
+    "instance_id": "toy_10",
+    "horizon": 290.61757548162865,
+    "generator_version": "1.1",
+    "note": "合成动态事件，非官方动态基准"
+  },
+  "events": [
+    {
+      "event_id": "e001",
+      "type": "NEW_ORDER",
+      "time": 28.4,
+      "customer": {
+        "customer_id": 1001,
+        "x": 42.91,
+        "y": 11.1,
+        "demand": 9.0,
+        "service_time": 6.0,
+        "release_time": 28.4
+      }
+    },
+    {
+      "event_id": "e002",
+      "type": "NEW_ORDER",
+      "time": 93.64,
+      "customer": {
+        "customer_id": 1002,
+        "x": 9.96,
+        "y": 2.19,
+        "demand": 6.0,
+        "service_time": 4.0,
+        "release_time": 93.64
+      }
+    },
+    {
+      "event_id": "e003",
+      "type": "NEW_ORDER",
+      "time": 157.73,
+      "customer": {
+        "customer_id": 1003,
+        "x": 35.64,
+        "y": 47.88,
+        "demand": 15.0,
+        "service_time": 5.0,
+        "release_time": 157.73
+      }
+    }
+  ]
+}

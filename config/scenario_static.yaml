@@ -1,0 +1,12 @@
+# 场景参数片段（不是可运行的实验配置）：静态基线场景，无新增订单、无故障、无拥堵。
+# 用法：把下列字段作为一项写入实验配置的 scenarios.specs，例如
+#   scenarios:
+#     specs:
+#       - {id: S0}
+scenario_id: S0
+horizon: 600.0
+seed: 2026
+new_order_ratio: 0.0
+breakdown_count: 0
+congestion_edge_ratio: 0.0
+congestion_multiplier: 1.0

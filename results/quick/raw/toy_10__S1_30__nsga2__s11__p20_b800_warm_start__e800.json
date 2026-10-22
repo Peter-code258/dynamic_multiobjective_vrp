@@ -1,0 +1,882 @@
+{
+  "run": {
+    "algorithm": "nsga2",
+    "instance_id": "toy_10",
+    "scenario_id": "S1_30",
+    "seed": 11
+  },
+  "metrics": {
+    "f1_total_distance": 419.05145827903203,
+    "f2_used_vehicles": 3.0,
+    "f3_total_response_time": 1082.377973280228,
+    "f4_load_utilization_variance": 0.11447916666666665,
+    "released_orders": 13,
+    "served_orders": 13,
+    "unserved_orders": 0,
+    "service_rate": 1.0,
+    "makespan": 244.1058921374917,
+    "feasible": true,
+    "had_infeasible_plan": false,
+    "total_lateness": 0.0,
+    "total_early_wait": 0.0,
+    "total_service_wait": 0.0,
+    "load_utilization_variance_all_available": 0.11447916666666665,
+    "load_variance_all_available": 732.6666666666666,
+    "replans": 4,
+    "route_change_rate_mean": 0.30158730158730157,
+    "replan_time_mean": 0.0840866999999994,
+    "replan_time_max": 0.12421959999999821,
+    "evaluations_total": 3200,
+    "recovery_events": 3,
+    "recovered_events": 3,
+    "recovery_rate": 1.0,
+    "recovery_time_mean": 16.953044552952512,
+    "recovery_time_max": 33.3773055623772,
+    "recovery_evaluations_mean": 800.0,
+    "unrecovered_events": 0
+  },
+  "replans": [
+    {
+      "event_id": "initial",
+      "event_type": "INITIAL",
+      "event_time": 0.0,
+      "planning_time": 0.0,
+      "wall_time_s": 0.09005289999999988,
+      "algorithm": "nsga2",
+      "evaluations": 800,
+      "archive_size": 22,
+      "feasible": true,
+      "unserved": 0,
+      "objectives": [
+        340.7443167581967,
+        2.0,
+        866.1258748836218,
+        0.0009765625
+      ],
+      "violation_score": 0.0,
+      "plan": {
+        "0": [
+          2,
+          7,
+          6,
+          10,
+          3
+        ],
+        "1": [
+          9,
+          5,
+          4,
+          8,
+          1
+        ]
+      },
+      "route_change_rate": 0.0,
+      "remaining_customers": 10,
+      "affected_customers": [],
+      "affected_vehicles": [],
+      "affected_edges": [],
+      "network_version": 0,
+      "available_vehicles": 3,
+      "vehicle_loads": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0
+      },
+      "response_strategy": "warm_start"
+    },
+    {
+      "event_id": "e001",
+      "event_type": "NEW_ORDER",
+      "event_time": 28.4,
+      "planning_time": 40.99751671513171,
+      "wall_time_s": 0.0660709999999991,
+      "algorithm": "nsga2",
+      "evaluations": 800,
+      "archive_size": 20,
+      "feasible": true,
+      "unserved": 0,
+      "objectives": [
+        382.6439195657199,
+        2.0,
+        974.1701986992725,
+        0.007656249999999995
+      ],
+      "violation_score": 0.0,
+      "plan": {
+        "0": [
+          6,
+          10,
+          3,
+          1
+        ],
+        "1": [
+          5,
+          1001,
+          4,
+          8
+        ]
+      },
+      "route_change_rate": 0.5714285714285714,
+      "remaining_customers": 8,
+      "affected_customers": [
+        1001
+      ],
+      "affected_vehicles": [],
+      "affected_edges": [],
+      "network_version": 0,
+      "available_vehicles": 3,
+      "vehicle_loads": {
+        "0": 0.4125,
+        "1": 0.2,
+        "2": 0.0
+      },
+      "response_strategy": "warm_start"
+    },
+    {
+      "event_id": "e002",
+      "event_type": "NEW_ORDER",
+      "event_time": 93.64,
+      "planning_time": 127.0173055623772,
+      "wall_time_s": 0.12421959999999821,
+      "algorithm": "nsga2",
+      "evaluations": 800,
+      "archive_size": 3,
+      "feasible": true,
+      "unserved": 0,
+      "objectives": [
+        390.02016481835415,
+        2.0,
+        1058.3586648998532,
+        0.0024999999999999988
+      ],
+      "violation_score": 0.0,
+      "plan": {
+        "0": [
+          1
+        ],
+        "1": [
+          4,
+          1002,
+          8
+        ]
+      },
+      "route_change_rate": 0.3333333333333333,
+      "remaining_customers": 4,
+      "affected_customers": [
+        1002
+      ],
+      "affected_vehicles": [],
+      "affected_edges": [],
+      "network_version": 0,
+      "available_vehicles": 3,
+      "vehicle_loads": {
+        "0": 0.8375,
+        "1": 0.5375,
+        "2": 0.0
+      },
+      "response_strategy": "warm_start"
+    },
+    {
+      "event_id": "e003",
+      "event_type": "NEW_ORDER",
+      "event_time": 157.73,
+      "planning_time": 162.6143113813486,
+      "wall_time_s": 0.05600330000000042,
+      "algorithm": "nsga2",
+      "evaluations": 800,
+      "archive_size": 3,
+      "feasible": true,
+      "unserved": 0,
+      "objectives": [
+        373.59608125936586,
+        3.0,
+        1082.3779732802282,
+        0.11447916666666665
+      ],
+      "violation_score": 0.0,
+      "plan": {
+        "1": [
+          1002,
+          8
+        ],
+        "2": [
+          1003
+        ]
+      },
+      "route_change_rate": 0.0,
+      "remaining_customers": 3,
+      "affected_customers": [
+        1003
+      ],
+      "affected_vehicles": [],
+      "affected_edges": [],
+      "network_version": 0,
+      "available_vehicles": 3,
+      "vehicle_loads": {
+        "0": 0.95,
+        "1": 0.7,
+        "2": 0.0
+      },
+      "response_strategy": "warm_start"
+    }
+  ],
+  "recovery": [
+    {
+      "event_id": "e001",
+      "event_type": "NEW_ORDER",
+      "event_time": 28.4,
+      "customers": [
+        1001
+      ],
+      "recovered": true,
+      "recovery_time": 12.597516715131711,
+      "recovery_evaluations": 800
+    },
+    {
+      "event_id": "e002",
+      "event_type": "NEW_ORDER",
+      "event_time": 93.64,
+      "customers": [
+        1002
+      ],
+      "recovered": true,
+      "recovery_time": 33.3773055623772,
+      "recovery_evaluations": 800
+    },
+    {
+      "event_id": "e003",
+      "event_type": "NEW_ORDER",
+      "event_time": 157.73,
+      "customers": [
+        1003
+      ],
+      "recovered": true,
+      "recovery_time": 4.884311381348624,
+      "recovery_evaluations": 800
+    }
+  ],
+  "final_plan": {
+    "1": [
+      1002,
+      8
+    ],
+    "2": [
+      1003
+    ]
+  },
+  "archive": [
+    {
+      "objectives": [
+        373.59608125936586,
+        3.0,
+        1082.3779732802282,
+        0.11447916666666665
+      ],
+      "feasible": true,
+      "routes": {
+        "1": [
+          1002,
+          8
+        ],
+        "2": [
+          1003
+        ]
+      }
+    },
+    {
+      "objectives": [
+        452.5433624773867,
+        3.0,
+        1124.2167488086566,
+        0.08510416666666665
+      ],
+      "feasible": true,
+      "routes": {
+        "2": [
+          1003,
+          8
+        ],
+        "1": [
+          1002
+        ]
+      }
+    },
+    {
+      "objectives": [
+        405.1418543653848,
+        3.0,
+        1200.1455969812264,
+        0.06322916666666666
+      ],
+      "feasible": true,
+      "routes": {
+        "2": [
+          1003,
+          8,
+          1002
+        ]
+      }
+    }
+  ],
+  "archive_history": [
+    {
+      "event_id": "initial",
+      "objectives": [
+        [
+          382.05608470507536,
+          2.0,
+          839.948844919925,
+          0.020664062499999997
+        ],
+        [
+          322.308901076638,
+          2.0,
+          976.5592579708989,
+          0.017226562499999994
+        ],
+        [
+          321.32263378656245,
+          2.0,
+          992.8833367389152,
+          0.017226562499999994
+        ],
+        [
+          400.73147606155993,
+          2.0,
+          926.113034186985,
+          0.00035156249999999955
+        ],
+        [
+          327.62807919336205,
+          2.0,
+          965.4969164852614,
+          0.017226562499999994
+        ],
+        [
+          380.9144324925485,
+          2.0,
+          865.0519607485253,
+          0.020664062499999997
+        ],
+        [
+          535.7014817428569,
+          3.0,
+          819.2348948444157,
+          0.012916666666666665
+        ],
+        [
+          467.689881267692,
+          3.0,
+          794.5024010676882,
+          0.017812500000000005
+        ],
+        [
+          395.71229460640734,
+          3.0,
+          666.4789262345312,
+          0.034479166666666665
+        ],
+        [
+          425.1153307499932,
+          3.0,
+          757.6034192038804,
+          0.018854166666666675
+        ],
+        [
+          340.7443167581967,
+          2.0,
+          866.1258748836218,
+          0.0009765625
+        ],
+        [
+          528.3581198341797,
+          3.0,
+          826.1086087142983,
+          0.0076041666666666645
+        ],
+        [
+          469.42558632577965,
+          3.0,
+          667.8326372657627,
+          0.01697916666666667
+        ],
+        [
+          570.502073616232,
+          3.0,
+          769.5034757837542,
+          0.009479166666666665
+        ],
+        [
+          549.3936556202416,
+          3.0,
+          795.6663134559068,
+          0.000937499999999999
+        ],
+        [
+          407.0330339442401,
+          3.0,
+          658.48168315527,
+          0.08197916666666667
+        ],
+        [
+          442.6650202312795,
+          3.0,
+          709.2342737164224,
+          0.022812499999999996
+        ],
+        [
+          438.96734829403243,
+          3.0,
+          635.9878682989187,
+          0.03135416666666666
+        ],
+        [
+          439.42301089987495,
+          3.0,
+          829.8297172963916,
+          0.018229166666666668
+        ],
+        [
+          518.2190725269215,
+          2.0,
+          1191.4592198259854,
+          3.906249999999972e-05
+        ],
+        [
+          322.5284114450771,
+          3.0,
+          934.5343066363207,
+          0.09500000000000001
+        ],
+        [
+          385.70123287043333,
+          3.0,
+          810.770167010693,
+          0.05322916666666668
+        ]
+      ]
+    },
+    {
+      "event_id": "e001",
+      "objectives": [
+        [
+          382.6439195657199,
+          2.0,
+          974.1701986992725,
+          0.007656249999999995
+        ],
+        [
+          439.8513144291382,
+          2.0,
+          1118.3121725907597,
+          0.00015625000000000027
+        ],
+        [
+          468.12909576759154,
+          2.0,
+          1236.8200276067887,
+          0.0
+        ],
+        [
+          341.33215161884124,
+          2.0,
+          1016.411189688841,
+          0.0006249999999999984
+        ],
+        [
+          402.6055748738516,
+          3.0,
+          855.3088931904883,
+          0.04666666666666667
+        ],
+        [
+          361.29380692697293,
+          3.0,
+          956.9805369344489,
+          0.09260416666666667
+        ],
+        [
+          512.53473642719,
+          3.0,
+          1111.5108160634625,
+          0.00010416666666666685
+        ],
+        [
+          418.4055620732062,
+          3.0,
+          896.647286755812,
+          0.02541666666666667
+        ],
+        [
+          416.5683121325788,
+          3.0,
+          938.5002348282078,
+          0.01166666666666667
+        ],
+        [
+          491.16822925150126,
+          3.0,
+          1143.2010670033662,
+          0.00010416666666666685
+        ],
+        [
+          443.8543988262814,
+          3.0,
+          863.6695711707696,
+          0.015416666666666669
+        ],
+        [
+          435.9401617777933,
+          3.0,
+          954.2238218963051,
+          0.007604166666666668
+        ],
+        [
+          431.02234372736183,
+          3.0,
+          813.1058301535959,
+          0.02541666666666667
+        ],
+        [
+          459.38795080700135,
+          3.0,
+          910.176802455833,
+          0.005104166666666672
+        ],
+        [
+          423.17568975379487,
+          3.0,
+          906.8429170893154,
+          0.01166666666666667
+        ],
+        [
+          449.6442900949773,
+          3.0,
+          853.3865387608112,
+          0.007604166666666668
+        ],
+        [
+          408.1702787152965,
+          3.0,
+          818.1434911559577,
+          0.04031250000000001
+        ],
+        [
+          490.8850887504915,
+          3.0,
+          952.4373735869306,
+          0.002187500000000002
+        ],
+        [
+          441.2593398945174,
+          3.0,
+          943.1614804106675,
+          0.007604166666666668
+        ],
+        [
+          393.3573982403038,
+          3.0,
+          860.0474617163364,
+          0.0346875
+        ]
+      ]
+    },
+    {
+      "event_id": "e002",
+      "objectives": [
+        [
+          390.02016481835415,
+          2.0,
+          1058.3586648998532,
+          0.0024999999999999988
+        ],
+        [
+          327.488875199204,
+          2.0,
+          1110.6062867214741,
+          0.00390625
+        ],
+        [
+          434.2891001680128,
+          2.0,
+          1102.627600249512,
+          0.00015625000000000027
+        ]
+      ]
+    },
+    {
+      "event_id": "e003",
+      "objectives": [
+        [
+          373.59608125936586,
+          3.0,
+          1082.3779732802282,
+          0.11447916666666665
+        ],
+        [
+          452.5433624773867,
+          3.0,
+          1124.2167488086566,
+          0.08510416666666665
+        ],
+        [
+          405.1418543653848,
+          3.0,
+          1200.1455969812264,
+          0.06322916666666666
+        ]
+      ]
+    }
+  ],
+  "customers": {
+    "1": {
+      "customer_id": 1,
+      "x": 5.72,
+      "y": 39.73,
+      "demand": 9.0,
+      "release_time": 0.0,
+      "status": "SERVED",
+      "service_start_time": 160.6143113813486,
+      "arrival_time": 160.6143113813486,
+      "assigned_vehicle_id": 0
+    },
+    "2": {
+      "customer_id": 2,
+      "x": 49.81,
+      "y": 45.39,
+      "demand": 15.0,
+      "release_time": 0.0,
+      "status": "SERVED",
+      "service_start_time": 4.613913739982576,
+      "arrival_time": 4.613913739982576,
+      "assigned_vehicle_id": 0
+    },
+    "3": {
+      "customer_id": 3,
+      "x": 31.8,
+      "y": 60.91,
+      "demand": 13.0,
+      "release_time": 0.0,
+      "status": "SERVED",
+      "service_start_time": 121.64769114179539,
+      "arrival_time": 121.64769114179539,
+      "assigned_vehicle_id": 0
+    },
+    "4": {
+      "customer_id": 4,
+      "x": 13.09,
+      "y": 5.8,
+      "demand": 13.0,
+      "release_time": 0.0,
+      "status": "SERVED",
+      "service_start_time": 157.30463624700505,
+      "arrival_time": 157.30463624700505,
+      "assigned_vehicle_id": 1
+    },
+    "5": {
+      "customer_id": 5,
+      "x": 85.73,
+      "y": 7.6,
+      "demand": 18.0,
+      "release_time": 0.0,
+      "status": "SERVED",
+      "service_start_time": 72.05450304671255,
+      "arrival_time": 72.05450304671255,
+      "assigned_vehicle_id": 1
+    },
+    "6": {
+      "customer_id": 6,
+      "x": 72.07,
+      "y": 70.12,
+      "demand": 13.0,
+      "release_time": 0.0,
+      "status": "SERVED",
+      "service_start_time": 55.24235437654434,
+      "arrival_time": 55.24235437654434,
+      "assigned_vehicle_id": 0
+    },
+    "7": {
+      "customer_id": 7,
+      "x": 57.84,
+      "y": 69.47,
+      "demand": 18.0,
+      "release_time": 0.0,
+      "status": "SERVED",
+      "service_start_time": 34.99751671513171,
+      "arrival_time": 34.99751671513171,
+      "assigned_vehicle_id": 0
+    },
+    "8": {
+      "customer_id": 8,
+      "x": 8.71,
+      "y": 14.17,
+      "demand": 6.0,
+      "release_time": 0.0,
+      "status": "SERVED",
+      "service_start_time": 183.43731798377885,
+      "arrival_time": 183.43731798377885,
+      "assigned_vehicle_id": 1
+    },
+    "9": {
+      "customer_id": 9,
+      "x": 76.65,
+      "y": 37.3,
+      "demand": 16.0,
+      "release_time": 0.0,
+      "status": "SERVED",
+      "service_start_time": 29.521390549904662,
+      "arrival_time": 29.521390549904662,
+      "assigned_vehicle_id": 1
+    },
+    "10": {
+      "customer_id": 10,
+      "x": 63.22,
+      "y": 87.98,
+      "demand": 8.0,
+      "release_time": 0.0,
+      "status": "SERVED",
+      "service_start_time": 77.17479276225119,
+      "arrival_time": 77.17479276225119,
+      "assigned_vehicle_id": 0
+    },
+    "1001": {
+      "customer_id": 1001,
+      "x": 42.91,
+      "y": 11.1,
+      "demand": 9.0,
+      "release_time": 28.4,
+      "status": "SERVED",
+      "service_start_time": 121.0173055623772,
+      "arrival_time": 121.0173055623772,
+      "assigned_vehicle_id": 1
+    },
+    "1002": {
+      "customer_id": 1002,
+      "x": 9.96,
+      "y": 2.19,
+      "demand": 6.0,
+      "release_time": 93.64,
+      "status": "SERVED",
+      "service_start_time": 167.39228166170827,
+      "arrival_time": 167.39228166170827,
+      "assigned_vehicle_id": 1
+    },
+    "1003": {
+      "customer_id": 1003,
+      "x": 35.64,
+      "y": 47.88,
+      "demand": 15.0,
+      "release_time": 157.73,
+      "status": "SERVED",
+      "service_start_time": 177.12995811168756,
+      "arrival_time": 177.12995811168756,
+      "assigned_vehicle_id": 2
+    }
+  },
+  "vehicles": {
+    "0": {
+      "capacity": 80.0,
+      "used": true,
+      "status": "FINISHED",
+      "current_node": 0,
+      "current_time": 208.06968840101484,
+      "cumulative_distance": 184.70007398043305,
+      "cumulative_demand": 76.0,
+      "served_customers": [
+        2,
+        7,
+        6,
+        10,
+        3,
+        1
+      ]
+    },
+    "1": {
+      "capacity": 80.0,
+      "used": true,
+      "status": "FINISHED",
+      "current_node": 0,
+      "current_time": 244.1058921374917,
+      "cumulative_distance": 205.3200908379211,
+      "cumulative_demand": 68.0,
+      "served_customers": [
+        9,
+        5,
+        1001,
+        4,
+        1002,
+        8
+      ]
+    },
+    "2": {
+      "capacity": 80.0,
+      "used": true,
+      "status": "FINISHED",
+      "current_node": 0,
+      "current_time": 196.6456048420265,
+      "cumulative_distance": 29.03129346067791,
+      "cumulative_demand": 15.0,
+      "served_customers": [
+        1003
+      ]
+    }
+  },
+  "congestion_periods": [],
+  "wall_time_s": 0.3370981000000004,
+  "sim_config": {
+    "horizon": 290.61757548162865,
+    "speed": 1.0,
+    "max_route_duration": null,
+    "hard_time_windows": false,
+    "selection_rule": "ideal_point"
+  },
+  "planner_config": {
+    "population_size": 20,
+    "max_evaluations": 800,
+    "archive_size": 50,
+    "crossover_rate": 0.9,
+    "mutation_rate": 0.2,
+    "response_strategy": "warm_start",
+    "pheromone_evaporation": 0.2,
+    "extra": {
+      "c1": 0.6,
+      "c2": 0.6,
+      "inertia_strength": 2.0,
+      "alpha": 1.0,
+      "beta": 1.0
+    }
+  },
+  "instance": {
+    "depot_id": 0,
+    "depot_x": 50.0,
+    "depot_y": 50.0,
+    "source": "synthetic-toy",
+    "customer_count": 10,
+    "vehicle_count": 3
+  },
+  "scenario_intensity": {
+    "new_order_ratio": 0.3,
+    "breakdown_count": 0,
+    "congestion_edge_ratio": 0.0,
+    "congestion_multiplier": 1.0
+  },
+  "scenario_metadata": {
+    "instance_id": "toy_10",
+    "horizon": 290.61757548162865,
+    "generator_version": "1.1",
+    "note": "合成动态事件，非官方动态基准"
+  },
+  "variant_id": "p20_b800_warm_start",
+  "run_id": "toy_10__S1_30__nsga2__s11__p20_b800_warm_start__e800",
+  "instance_path": "D:\\23-兴湘计科\\动态多目标车辆路径规划\\dynamic_multiobjective_vrp\\data/instances\\toy_10.json",
+  "scenario_path": "D:\\23-兴湘计科\\动态多目标车辆路径规划\\dynamic_multiobjective_vrp\\data/scenarios\\toy_10__S1_30__s11.json",
+  "config_hash": "cf8f437df5993cd2",
+  "created_at": "2026-10-22T14:10:29",
+  "environment": {
+    "python": "3.9.13",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "git_commit": null
+  }
+}
